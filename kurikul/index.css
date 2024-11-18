@@ -1,0 +1,116 @@
+ /* General Reset */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+.form-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left-panel, .right-panel {
+    padding: 20px;
+}
+
+.left-panel {
+    width: 30%;
+    border-right: 1px solid #ddd;
+}
+
+.right-panel {
+    width: 70%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+select, textarea, input[type="text"], button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #b9d7a1;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #bad7eb;
+}
+
+.field-group {
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.buttons button {
+    width: auto;
+    padding: 10px 20px;
+}
+
+.button_obrisi{
+    background-color:#cc4169;
+}
+.button_obrisi:hover{
+    background-color:#f01322;
+}
+
+.right-panel .field-group {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.right-panel .field-group > div {
+    flex: 1;
+}
+
+.right-panel textarea {
+    height: 70px;
+}
+
+.right-panel input[type="text"] {
+    height: 34px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 20px; /* Centriranje i razmak ispod logotipa */
+    width: 100px; /* Prilagodi veličinu logotipa */
+    height: auto; /* Održava proporcije */
+}
