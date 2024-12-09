@@ -1,4 +1,3 @@
-
 <?php
 session_start();
 include_once 'password_hash.php';
@@ -31,17 +30,22 @@ $stmt = sqlsrv_query($conn, $sql, $params);
 if ($stmt === false) {die(print_r(sqlsrv_errors(), true));} //ako stmt nema nista, onda se aplikacija ugasi
 
 $row = sqlsrv_fetch_array($stmt, SQLSRV_FETCH_ASSOC);   //spremi celu tablicu v row, prstupam row['ime_stupca'];
-if ($row === null) {$messege = "Korisničko ime ne postoji!";}
-else{
-    if ($username_form === $row['Username'] && checkPassword($password_form,$row['Password'])) {
-        $_SESSION['loggedin'] = true;
-        $_SESSION['username'] = $username;
-    header("Location: test.html");
-    exit();}   
-    else{$messege = "Kriva lozinka!";}
 
+if ($row === null) {$messege = "Korisničko ime ne postoji!";}
+else{ 
+    if ($username_form === $row['Username'] && checkPassword($password_form,$row['Password'])) {
+
+        $_SESSION['loggedin'] = true;
+        $_SESSION['username'] = $row['Username'];
+        header("Location: testing.php");
+        exit();
+    }   
+    else{$messege = "Kriva lozinka!";}
     }
 }
+
+
+
 ?>
 
 <!DOCTYPE html>

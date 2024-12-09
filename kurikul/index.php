@@ -10,19 +10,34 @@
     <div class="form-container">
         <div class="left-panel">
             <div class="field-group">
-                <img src=".\logo\tsck.png" alt="Logo" class="logo">
-                <br>
+                <img src=".\logo\tsck.png" alt="Logo" class="logo"><br>
+
                 <label for="vrste-aktivnosti">Vrste Aktivnosti:</label>
                 <select id="vrste-aktivnosti">
                     <option>autorske</option>
                 </select>
             </div>
             <div class="field-group">
+                
                 <label>
                     <input type="checkbox" id="aktualna-godina"> Sve / Aktualna godina
-                </label>
-                <textarea id="listBox_Aktivnosti" rows="5"></textarea>
+                </label><br>
+                
+                <div class="scrollable-div">
+                    <button>Button 1</button>
+                    <button>Button 2</button>
+                    <button>Button 3</button>
+                    <button>Button 4</button>
+                    <button>Button 5</button>
+                    <button>Button 6</button>
+                    <button>Button 7</button>
+                    <button>Button 8</button>
+                    <button>Button 9</button>
+                    <button>Button 10</button>
+                 </div>
+                 
             </div>
+
             <div class="field-group">
                 <button>Nova Aktivnost</button>
                 <button>Kopiraj</button>

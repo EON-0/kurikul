@@ -110,7 +110,49 @@ button:hover {
 
 .logo {
     display: block;
-    margin: 0 auto 20px; /* Centriranje i razmak ispod logotipa */
-    width: 100px; /* Prilagodi veličinu logotipa */
-    height: auto; /* Održava proporcije */
+    margin: 0 auto 20px; 
+    width: 100px; 
+    height: auto;
+}
+.list_box {
+    width: 300px; /* Adjust to parent container */
+    max-width: 300px; /* Optional: restrict max width */
+    max-height: 100px;
+    overflow-y: auto;
+    overflow:scroll;
+    border: 1px solid #ddd;
+    padding: 8px;
+    background-color: #f9f9f9; /* Match background theme */
+    border-radius: 4px; /* Optional: rounded corners */
+    scroll-behavior: smooth; /* Smooth scroll effect */
+}
+/*za scrollanje*/
+/* Style for the container */
+.scrollable-div {
+    width: 300px; /* Fixed width */
+    height: 400px; /* Fixed height */
+    border: 2px solid #333; /* Border styling */
+    border-radius: 8px;
+    overflow-y: auto; /* Scroll vertically if content overflows */
+    padding: 10px; /* Add some padding */
+    background-color: #f9f9f9; /* Light background */
+}
+
+/* Style for the buttons */
+.scrollable-div button {
+    display: block;
+    width: 100%; /* Full width inside the container */
+    margin: 5px 0; /* Spacing between buttons */
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF; /* Blue background */
+    color: white; /* White text */
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Hover effect for buttons */
+.scrollable-div button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
 }
