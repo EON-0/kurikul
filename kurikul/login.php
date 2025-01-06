@@ -13,10 +13,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {    //provjeravam ako je post postav
 $username_form = $_POST['username'];
 $password_form = $_POST['password'];
 
-$serverName = "DESKTOP-3GFGVTG\SQLEXPRESS";
+$serverName = "MASHINA\SQLEXPRESS";
 $connectionOptions = [
-    "Database" => "kurikulum",
-    "Uid" => "aplikacija",
+    "Database" => "skkurikul",
+    "Uid" => "app",
     "PWD" => "pass"
 ];
 
@@ -28,7 +28,6 @@ $params = [$username_form];
 $stmt = sqlsrv_query($conn, $sql, $params);
 
 if ($stmt === false) {die(print_r(sqlsrv_errors(), true));} //ako stmt nema nista, onda se aplikacija ugasi
-
 $row = sqlsrv_fetch_array($stmt, SQLSRV_FETCH_ASSOC);   //spremi celu tablicu v row, prstupam row['ime_stupca'];
 
 if ($row === null) {$messege = "Korisničko ime ne postoji!";}
@@ -36,8 +35,8 @@ else{
     if ($username_form === $row['Username'] && checkPassword($password_form,$row['Password'])) {
 
         $_SESSION['loggedin'] = true;
-        $_SESSION['username'] = $row['Username'];
-        header("Location: testing.php");
+        $_SESSION['ID'] = $row['ID'];
+        header("Location: index.php");
         exit();
     }   
     else{$messege = "Kriva lozinka!";}

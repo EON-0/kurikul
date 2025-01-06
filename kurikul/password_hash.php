@@ -26,5 +26,11 @@ function checkPassword($password, $savedPasswordHash) {
     }
 }
 
-//probna lozinka : Dmvo0Au0VaRqok4B+xWZ6nb6AmxFUilZNA7HSPZKrrHvzeeM
+//probna lozinka : UAZMTf6gXVDdsNjxjTNOZwAGIzcmH65hvUCWz4tBro/DLq6u  --> pass
+//username : kola
+/*use skkurikul;
+insert into Korisnici(Username,Password,FullName,Enabled,radnoMjesto) values(
+    'kola','UAZMTf6gXVDdsNjxjTNOZwAGIzcmH65hvUCWz4tBro/DLq6u ','Leon',1,'astronaut'
+    )
+*/
 ?>

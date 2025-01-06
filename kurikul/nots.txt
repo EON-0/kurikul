@@ -1,0 +1,81 @@
+use skkurikul;
+SELECT * FROM Aktivnost
+JOIN Troskovnik on Aktivnost.ID = Troskovnik.AktivnostID
+JOIN Ciljevi on Aktivnost.ID = Ciljevi.AktivnostID
+JOIN Realizacije on Aktivnost.ID = Realizacije.AktivnostID
+JOIN Aktivnosti on Aktivnost.ID = Aktivnosti.AktivnostID
+JOIN Prava on Aktivnost.ID = Prava.AktivnostID
+JOIN Nositelji on Aktivnost.ID = Nositelji.AktivnostID
+JOIN Vrednovanja on Aktivnost.ID = Vrednovanja.AktivnostID
+
+WHERE Aktivnost.ID = 1023
+
+//ne dela al za saki slucaj
+
+
+//prepravljeni sql-i
+
+//za NAZIV, VREMENIK, KREIRANO, NAMJENA -> 
+    SELECT * FROM Aktivnost WHERE ID = ? AND Obrisano = 0; //biras kaj oces
+   
+//za CILJEVI (toga ima vejc pa treba s for petljom dodavati kak v list box) -> 
+    SELECT Ciljevi.Cilj FROM Aktivnost JOIN Ciljevi ON Aktivnost.ID = Ciljevi.AktivnostID
+    WHERE Aktivnost.ID = 1024 AND Aktivnost.Obrisano = 0;   
+
+//za AUTOR ->
+    SELECT Korisnici.FullName FROM Aktivnost 
+    JOIN Aktivnosti ON Aktivnost.ID = Aktivnosti.AktivnostID
+    JOIN Korisnici ON Aktivnosti.AutorID = Korisnici.ID
+    WHERE Aktivnost.ID = ?;
+
+//za VRSTA AKTIVNOSTI (string) ->
+    SELECT VrsteAktivnosti.Naziv FROM Aktivnosti 
+    JOIN VrsteAktivnosti ON Aktivnosti.VrstaID = VrsteAktivnosti.ID 
+    WHERE Aktivnosti.AktivnostID = ? AND VrsteAktivnosti.Aktivno = 1;
+
+    (int ID ) -> 
+    SELECT VrsteAktivnosti.ID FROM Aktivnosti 
+    JOIN VrsteAktivnosti ON Aktivnosti.VrstaID = VrsteAktivnosti.ID 
+    WHERE Aktivnosti.AktivnostID = ? AND VrsteAktivnosti.Aktivno = 1;
+
+//za STATUS (string) ->
+    S   ELECT Statusi.Status FROM Aktivnosti 
+    JOIN Statusi ON Aktivnosti.StatusID = Statusi.ID 
+    WHERE Aktivnosti.AktivnostID = ?;
+
+    (int ID) ->
+    SELECT Statusi.ID  FROM Aktivnosti 
+    JOIN Statusi ON Aktivnosti.StatusID = Statusi.ID 
+    WHERE Aktivnosti.AktivnostID = ?;
+
+ //za TROSKOVNIK -> (isto treba for petlja)
+    SELECT Troskovnik.Trosak FROM Troskovnik  WHERE Troskovnik.AktivnostID = ? AND Troskovnik.Obrisano = 0;
+
+//za REALIZACIJU ->(isto treba for petlja)
+    SELECT Realizacije.Realizacija FROM Realizacije WHERE Realizacije.AktivnostID = ? AND Obrisano = 0;
+
+//za IZVJESCE (string) ->
+    SELECT Izvjesce.opis FROM Aktivnosti
+    JOIN Izvjesce on Aktivnosti.izvjesceID = Izvjesce.id 
+    WHERE Aktivnosti.AktivnostID = ? AND Izvjesce.potvrdeno = 1;
+
+//za KATEGORIJA NAPREDOVANJA (string) ->
+    SELECT kategorijaNapredovanje.grupa FROM Aktivnosti
+    JOIN Izvjesce on Aktivnosti.izvjesceID = Izvjesce.id 
+    JOIN kategorijaNapredovanje on kategorijaNapredovanje.id = Izvjesce.kategorijaNapredovanja
+    WHERE Aktivnosti.AktivnostID = ? AND Izvjesce.potvrdeno = 1;
+
+    (int ID) ->
+    SELECT kategorijaNapredovanje.id FROM Aktivnosti
+    JOIN Izvjesce on Aktivnosti.izvjesceID = Izvjesce.id 
+    JOIN kategorijaNapredovanje on kategorijaNapredovanje.id = Izvjesce.kategorijaNapredovanja
+    WHERE Aktivnosti.AktivnostID = ? AND Izvjesce.potvrdeno = 1;
+
+
+//za NACIN VREDNOVANJA ( isto petlja )
+    SELECT Vrednovanja.Vrednovanje FROM Vrednovanja WHERE AktivnostID = ? AND Obrisano = 0;
+
+
+
+TO ti more bit alert!
+echo "<script>alert('{$id_aktivnosti}');</script>";

@@ -5,9 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Školski Kurikulum</title>
     <link rel="stylesheet" href="style.css">
-    <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
 </head>
+<script>
+    $(document).ready(function () {
+        $(".ID_aktivnosti").click(function () {
+            let buttonValue = $(this).val();
+            $.ajax({
+                url: "process.php", // PHP script
+                type: "POST",
+                data: { value: buttonValue },
+                success: function (response) {
+                    let data = JSON.parse(response); // Parse JSON response
+                    $("#result").html(data.message); // Update HTML
+                },
+                error: function () {
+                    alert("An error occurred.");
+                },
+            });
+        });
+    });
+</script>
 <body>
     <?php
     session_start();
@@ -33,9 +52,7 @@
         }
         $row = sqlsrv_fetch_array($stmt, SQLSRV_FETCH_ASSOC);
         $full_name = $row['FullName'];
-    
 
-    echo $id_aktivnosti
     ?>
 
     <div class="form-container">
@@ -63,11 +80,11 @@
                         $stmt = sqlsrv_query($conn, $sql,[$user_ID]);
                         if ($stmt === false) {die(print_r(sqlsrv_errors(), true));} //ako stmt nema nista, onda se aplikacija ugasi
 
-                    
-                          while($row = sqlsrv_fetch_array($stmt, SQLSRV_FETCH_ASSOC)){ // Spremi cijelu tablicu u row, pristupam row['ime_stupca'];
-                            print("<button type='submit' name='ID_aktivnosti' value='{$row["ID"]}'>{$row['Naziv']}</button>");
-                        }
                         
+                          while($row = sqlsrv_fetch_array($stmt, SQLSRV_FETCH_ASSOC)){ // Spremi cijelu tablicu u row, pristupam row['ime_stupca'];
+                            print("<button  name='ID_aktivnosti' value='{$row["ID"]}'>{$row['Naziv']}</button>");
+                        }
+                       
                     ?>
                 </div>   
             </div>
