@@ -27,7 +27,7 @@ function logInCheck() {
 }
 function setLoggedInSession() {
     $.ajax({
-        url: 'set_session.php',  // Make sure the path is correct
+        url: 'set_session.php',
         method: 'POST',
         data: { action: 'set_loggedin' },
         dataType: 'JSON',

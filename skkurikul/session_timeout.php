@@ -1,4 +1,5 @@
 <?php
+// provjerava koliko je vremena prošlo od posljednjeg logina
 session_start();
 function checkSessionTime(){
     if (isset($_SESSION['login_time'])) {

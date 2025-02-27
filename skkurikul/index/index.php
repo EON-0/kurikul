@@ -5,36 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Školski Kurikulum</title>
     <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
+
 </head>
 <?php
+
 include '../session_timeout.php';
-checkSessionTime();
+include '../dbasse_local.php';
+
+checkSessionTime(); //provjera trajanja sessije
 
 if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
     header("Location: ../login/login.php");
     exit();
 }
-
-echo "Logged in!";
+    
+$user_ID = 1024; //$_SESSION['user_ID']; //za test after del
+print("<script>var user_ID = {$user_ID};</script>");
 
 ?>
-
 <body>
     <div class="form-container">
         <div class="left-panel">
             <div class="field-group">
                 <img src="../login/logo/tsck.png" alt="Logo" class="logo"><br>
-                <span id="welcome-message"></span>
+                <span id="welcome-message"><?php  echo $_SESSION['FullName'] ?></span>
                 <button id="logout" class="odjava">ODJAVA</button>
 
                 <label for="vrste-aktivnosti">Vrste Aktivnosti:</label>
                 <select id="vrste-aktivnosti"></select>
             </div>
             <div class="field-group">
-                <label><input type="checkbox" id="aktualna-godina"> Sve / Aktualna godina</label><br>
-                <div class="scrollable-div" id="scrollable-div"></div>
+                <label><input type="checkbox" id="aktualna-godina">Sve/Aktualna godina</label>
+                <div class="scrollable-div" id="scrollable-div">
+                    
+                </div>
             </div>
             <div class="field-group">
                 <button id="nova-aktivnost">Nova Aktivnost</button>

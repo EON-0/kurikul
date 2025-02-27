@@ -10,7 +10,7 @@ if(isset($_GET["username"]) && isset($_GET["password"])) {
     $password = $_GET["password"];
 
     // SQL query to fetch the hashed password
-    $sql = "SELECT Password FROM sk_korisnici WHERE Username = ?";
+    $sql = "SELECT * FROM sk_korisnici WHERE Username = ?";
 
     $stmt = $con->prepare($sql);
     $stmt->bind_param("s", $username);
@@ -22,7 +22,9 @@ if(isset($_GET["username"]) && isset($_GET["password"])) {
 
         // Check if the password matches
         if(checkPassword($password, $hashed_password)) {
-            $_SESSION['username'] = $username; 
+            $_SESSION['username'] = $username;
+            $_SESSION['FullName'] = $row['FullName'];
+            $_SESSION['user_ID'] = $row['ID']; 
             $response['status'] = "success";
         } else {
             $response['status'] = "fail";
