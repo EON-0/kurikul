@@ -21,7 +21,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
     exit();
 }
     
-$user_ID = 1024; //$_SESSION['user_ID']; //za test after del
+$user_ID = 1019; //$_SESSION['user_ID']; //za test after del    
 print("<script>var user_ID = {$user_ID};</script>");
 
 ?>
@@ -31,13 +31,16 @@ print("<script>var user_ID = {$user_ID};</script>");
             <div class="field-group">
                 <img src="../login/logo/tsck.png" alt="Logo" class="logo"><br>
                 <span id="welcome-message"><?php  echo $_SESSION['FullName'] ?></span>
-                <button id="logout" class="odjava">ODJAVA</button>
+                <button id="logout" onclick="logOut()"  class="odjava">ODJAVA</button>
 
                 <label for="vrste-aktivnosti">Vrste Aktivnosti:</label>
                 <select id="vrste-aktivnosti"></select>
             </div>
             <div class="field-group">
-                <label><input type="checkbox" id="aktualna-godina">Sve/Aktualna godina</label>
+            <label>
+             <span>Sve/Aktualna godina</span>
+                <input type="checkbox" id="aktualna-godina">
+            </label>
                 <div class="scrollable-div" id="scrollable-div">
                     
                 </div>

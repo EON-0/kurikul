@@ -9,7 +9,7 @@ define('DBNAME', 'skkurikul');
 define ('DBUSERNAME', 'root');
 define('DBPASSWORD', '');
 $con = mysqli_connect (DBHOST, DBUSERNAME, DBPASSWORD, DBNAME) ;
-$con->set_charset(' utf8mb4_unicode_ci.');
+$con->set_charset('utf8mb4_croatian_ci');
 // Check connection
 if (!$con) {
 die ("Connection failed: " . mysqli_connect_error());
