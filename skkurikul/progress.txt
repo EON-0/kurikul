@@ -5,4 +5,4 @@
 4. dropdowns +
 5. sort aktivnsoti +
 6. dobivanje podataka php +
-7. prikaz s javom
+7. prikaz s javom 

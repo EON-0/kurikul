@@ -1,6 +1,6 @@
 <?php
 include '../dbasse_local.php';
-$aktivnost_ID = 1024;//$_GET['aktivnost_ID'];
+$aktivnost_ID = $_GET['aktivnost_ID'];
 
 $opci_array = [];
 
@@ -31,7 +31,6 @@ foreach ($sql_querry as $sql) {
 $return_array[0] = $opci_array;
 
 //fetchMultipleResults($con,$sql, $params) 
-
 // CILJEVI
 $sql_querry_multiple[] = "SELECT Cilj FROM sk_Ciljevi WHERE AktivnostID = ? AND Obrisano = 0";
 
@@ -43,6 +42,9 @@ $sql_querry_multiple[] = "SELECT Realizacija FROM sk_Realizacije WHERE Aktivnost
 
 // NACIN VREDNOVANJA
 $sql_querry_multiple[] = "SELECT Vrednovanje FROM sk_Vrednovanja WHERE AktivnostID = ? AND Obrisano = 0";
+
+// NOSITELJI
+$sql_querry_multiple[] = "SELECT sk_korisnici.ID FROM sk_korisnici JOIN sk_nositelji ON sk_nositelji.KorisnikID = sk_korisnici.ID WHERE sk_nositelji.AktivnostID = ?";
 
 $i = 1;
 foreach ($sql_querry_multiple as $sql) {
@@ -59,7 +61,7 @@ foreach ($sql_querry_multiple as $sql) {
 // 2 -> troskovnik
 // 3 -> realizacija
 // 4 -> nacin vrednovanja
-
+// 5 -> nositelji
 echo json_encode($return_array, JSON_UNESCAPED_UNICODE);
 
 

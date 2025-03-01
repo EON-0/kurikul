@@ -4,6 +4,7 @@
     <meta charset="UTF-8">  
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Školski Kurikulum</title>
+    <!--<link rel="stylesheet" href="index.css">-->
     <link rel="stylesheet" href="index.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="index.js"></script>
@@ -96,8 +97,9 @@ print("<script>var user_ID = {$user_ID};</script>");
                             <button type="button" id="edit-realization">Uredi</button>
                         </div>
                     </div>
+                    <br>
                     <div>
-                        <label for="carriers">Nositelji:</label>
+                        <label for="container">Nositelji:</label>
                         <div class="list-box" id="carriers"></div>
                         <input type="text" id="search-carriers" placeholder="Pretraži">
                     </div>

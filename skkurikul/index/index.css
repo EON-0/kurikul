@@ -37,14 +37,6 @@ body {
 .right-panel {
     width: 70%;
 }
-
-label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-    color: #555;
-}
-
 select, textarea, input[type="text"], button {
     width: 100%;
     padding: 8px;
@@ -197,7 +189,7 @@ textarea {
     grid-column: span 1;
 }
 .list-box {
-    height: 60px;
+    height: 80px;
     overflow-y: auto;
     border: 1px solid #ccc;
     padding: 5px;
@@ -218,3 +210,6 @@ label {
     align-items: center;
     gap: 5px;
   }
+
+
+
