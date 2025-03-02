@@ -28,40 +28,38 @@ foreach ($sql_querry as $sql) {
     }
 }
 
+$return_array = array_fill(0, 6, []);
 $return_array[0] = $opci_array;
 
 //fetchMultipleResults($con,$sql, $params) 
 // CILJEVI
-$sql_querry_multiple[] = "SELECT Cilj FROM sk_Ciljevi WHERE AktivnostID = ? AND Obrisano = 0";
+$sql_querry_multiple[] = "SELECT sk_Ciljevi.ID,Cilj FROM sk_Ciljevi WHERE AktivnostID = ? AND Obrisano = 0";
 
 // TROSKOVNIK
-$sql_querry_multiple[] = "SELECT Trosak FROM sk_Troskovnik WHERE AktivnostID = ? AND Obrisano = 0";
+$sql_querry_multiple[] = "SELECT sk_Troskovnik.ID,Trosak FROM sk_Troskovnik WHERE AktivnostID = ? AND Obrisano = 0";
 
 // REALIZACIJA
-$sql_querry_multiple[] = "SELECT Realizacija FROM sk_Realizacije WHERE AktivnostID = ? AND Obrisano = 0";
+$sql_querry_multiple[] = "SELECT sk_Realizacije.ID,Realizacija FROM sk_Realizacije WHERE AktivnostID = ? AND Obrisano = 0";
 
 // NACIN VREDNOVANJA
-$sql_querry_multiple[] = "SELECT Vrednovanje FROM sk_Vrednovanja WHERE AktivnostID = ? AND Obrisano = 0";
+$sql_querry_multiple[] = "SELECT sk_Vrednovanja.ID,Vrednovanje FROM sk_Vrednovanja WHERE AktivnostID = ? AND Obrisano = 0";
 
 // NOSITELJI
 $sql_querry_multiple[] = "SELECT sk_korisnici.ID FROM sk_korisnici JOIN sk_nositelji ON sk_nositelji.KorisnikID = sk_korisnici.ID WHERE sk_nositelji.AktivnostID = ?";
 
-$i = 1;
-foreach ($sql_querry_multiple as $sql) {
-    $row = fetchMultipleResults($con,$sql,[$aktivnost_ID]);
-    if($row){
-        $return_array[$i] = $row;
-        $i++;
-    }
+
+foreach ($sql_querry_multiple as $index => $sql) {
+    $row = fetchMultipleResults($con, $sql, [$aktivnost_ID]);
+    $return_array[$index + 1] = $row ?: [];
 }
 
 
-// 0 -> opcenito
-// 1 -> ciljevi
-// 2 -> troskovnik
-// 3 -> realizacija
-// 4 -> nacin vrednovanja
-// 5 -> nositelji
+// 0 -> opcenito +
+// 1 -> ciljevi +
+// 2 -> troskovnik +
+// 3 -> realizacija +
+// 4 -> nacin vrednovanja +
+// 5 -> nositelji +
 echo json_encode($return_array, JSON_UNESCAPED_UNICODE);
 
 

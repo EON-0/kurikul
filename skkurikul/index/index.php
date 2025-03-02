@@ -22,11 +22,12 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
     exit();
 }
     
-$user_ID = 1019; //$_SESSION['user_ID']; //za test after del    
+$user_ID = 1024; //$_SESSION['user_ID']; //za test after del    
 print("<script>var user_ID = {$user_ID};</script>");
 
 ?>
 <body>
+<button onclick="Save();">Save</button>
     <div class="form-container">
         <div class="left-panel">
             <div class="field-group">
@@ -99,7 +100,7 @@ print("<script>var user_ID = {$user_ID};</script>");
                     </div>
                     <br>
                     <div>
-                        <label for="container">Nositelji:</label>
+                        <label for="carriers">Nositelji:</label>
                         <div class="list-box" id="carriers"></div>
                         <input type="text" id="search-carriers" placeholder="Pretraži">
                     </div>
@@ -122,7 +123,9 @@ print("<script>var user_ID = {$user_ID};</script>");
                     </div>
                     <div>
                         <label for="expenses">Troškovnik:</label>
-                        <div class="list-box" id="expenses"></div>
+                        <div class="list-box" id="expenses">
+
+                        </div>
                         <div class="button-group">
                             <button type="button" id="add-expense">+</button>
                             <button type="button" id="remove-expense">-</button>

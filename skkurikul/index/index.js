@@ -156,12 +156,23 @@ function getAktinostPodaci(button){
         data: {aktivnost_ID: aktivnost_ID },
         dataType: "JSON",
         success: function(aktivnost_podaci){
+            //console.log(aktivnost_podaci);//debug 
+            
             let opci_podaci = aktivnost_podaci[0]; 
             popuniOpce(opci_podaci);
 
+            let ciljevi = aktivnost_podaci[1];
+            popuniCiljevi(ciljevi);
+
+            let troskovnik = aktivnost_podaci[2];
+            popuniTroskovnik(troskovnik);
+
+            let relizacija = aktivnost_podaci[3];
+        
+            popuniRealizaciju(relizacija);
 
 
-            let nositelji = aktivnost_podaci[5].map(obj => obj.ID); // Extract IDs
+            let nositelji = Array.isArray(aktivnost_podaci[5]) ? aktivnost_podaci[5].map(obj => obj.ID) : [];
             checkCheckboxes(nositelji);
         },
         error: function() {
@@ -170,7 +181,77 @@ function getAktinostPodaci(button){
     })
 }
 
+//radio buttoni za troskovnik
+function popuniTroskovnik(troskovnik) {
+    let goalsDiv = document.getElementById('expenses');
+    goalsDiv.innerHTML = ''; // Clear previous content
+
+    troskovnik.forEach(trosak => {
+        const radio = document.createElement('input');
+        radio.type = 'radio';
+        radio.id = `expense-${trosak.ID}`;
+        radio.name = 'expense'; // Ensure single selection
+        radio.value = trosak.ID;
+
+        const label = document.createElement('label');
+        label.htmlFor = radio.id;
+        label.textContent = trosak.Trosak;
+
+        goalsDiv.appendChild(radio);
+        goalsDiv.appendChild(label);
+        // goalsDiv.appendChild(document.createElement('br')); // Optional line break
+    });
+}
+
+function popuniRealizaciju(relizacija) {
+    let goalsDiv = document.getElementById('list-realizations');
+    goalsDiv.innerHTML = ''; // Clear previous content
+
+    //nacin realizacije -> nacin
+    relizacija.forEach(nacin => {
+        const radio = document.createElement('input');
+        radio.type = 'radio';
+        radio.id = `realization-${nacin.ID}`;
+        radio.name = 'realization'; // Ensure all radios share the same name for single selection
+        radio.value = nacin.ID;
+
+        const label = document.createElement('label');
+        label.htmlFor = radio.id;
+        label.textContent = nacin.Realizacija;
+
+        goalsDiv.appendChild(radio);
+        goalsDiv.appendChild(label);
+        // goalsDiv.appendChild(document.createElement('br')); // Optional line break
+    });
+}
+
+
+
+//radio buttoni za ciljeve
+function popuniCiljevi(ciljevi) {
+    let goalsDiv = document.getElementById('list-goals');
+    goalsDiv.innerHTML = ''; // Clear previous content
+
+    ciljevi.forEach(cilj => {
+        const radio = document.createElement('input');
+        radio.type = 'radio';
+        radio.id = `goal-${cilj.ID}`;
+        radio.name = 'goal'; // Ensure all radios share the same name for single selection
+        radio.value = cilj.ID;
+
+        const label = document.createElement('label');
+        label.htmlFor = radio.id;
+        label.textContent = cilj.Cilj;
+
+        goalsDiv.appendChild(radio);
+        goalsDiv.appendChild(label);
+        // goalsDiv.appendChild(document.createElement('br')); // Optional line break
+    });
+}
+
+
 function popuniOpce(opci_podaci) {
+
     const fields = {  
         'name': opci_podaci["Naziv"],
         'created': opci_podaci["Kreirano"]?.split(' ')[0] || '',
@@ -205,5 +286,109 @@ function checkCheckboxes(ids) {
     });
 }
 
+//alternativa je ka posle ajaxa do baze i onda mu on vrne id od najslcinijega 
+function scrolldiv() {
+    var elem = document
+        .getElementByText("Markus Pilić");
+    elem
+        .scrollIntoView();
+}
 
 
+function Save() {
+let opciPodaci = putOpciPodaci();
+let nositelji = putCheckedCarriers();
+let ciljevi = putGoals();
+let realizacije = putRealizations();
+let troskovnik = putExpenses();
+
+console.log(opciPodaci);
+console.log(nositelji);
+console.log(ciljevi);
+console.log(realizacije);
+console.log(troskovnik);
+
+}
+
+function putOpciPodaci(){
+    const fields = [
+        'name',
+        'created',
+        'author',
+        'activity-type',
+        'status',
+        'purpose',
+        'carriers', 
+        'responsibility', 
+        'timeline', 
+        'evaluation',
+        'expenses',
+        'report'
+    ];
+
+    const opci_podaci = {};
+
+    fields.forEach(id => {
+        const element = document.getElementById(id);
+        opci_podaci[id] = element ? element.value : '';
+    });
+    return opci_podaci;
+}
+
+function putCheckedCarriers() {
+    const checkedCarriers = [];
+    const checkboxes = document.querySelectorAll('#carriers input[type="checkbox"]:checked');
+
+    checkboxes.forEach(checkbox => {
+        checkedCarriers.push(checkbox.value);
+    });
+
+    console.log('Checked Carriers:', checkedCarriers);
+    return checkedCarriers;
+}
+
+function putGoals() {
+    const allGoals = [];
+    const radios = document.querySelectorAll('#list-goals input[type="radio"]');
+
+    radios.forEach(radio => {
+        const label = radio.parentElement.querySelector('label'); // Find the label associated with the radio button
+        allGoals.push({
+            value: radio.value,
+            text: label ? label.textContent.trim() : '' // Get text content of the label
+        });
+    });
+
+    return allGoals;
+}
+
+function putRealizations(){
+    const realizations = [];
+    const radios = document.querySelectorAll('#list-realizations input[type="radio"]');
+
+    radios.forEach(radio => {
+        const label = radio.parentElement.querySelector('label'); // Find the label associated with the radio button
+        realizations.push({
+            value: radio.value,
+            text: label ? label.textContent.trim() : '' // Get text content of the label
+        });
+    });
+
+    return realizations;
+
+}
+function putExpenses(){
+    const expenses = [];
+    const radios = document.querySelectorAll('#expenses input[type="radio"]');
+
+    radios.forEach(radio => {
+        const label = radio.parentElement.querySelector('label'); // Find the label associated with the radio button
+        expenses.push({
+            value: radio.value,
+            text: label ? label.textContent.trim() : '' // Get text content of the label
+        });
+    });
+
+    return expenses;
+
+}
