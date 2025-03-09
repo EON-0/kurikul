@@ -34,6 +34,32 @@ function fetchSingleResult($con,$sql, $params) {
     $result = mysqli_stmt_get_result($stmt);
     return mysqli_fetch_assoc($result);
 }
+//za INSERT,DELET i UPDATE => vreaća true/false
+function placeToDataBase($con, $sql, $params) {
+    $stmt = mysqli_prepare($con, $sql);
+    if (!$stmt) {
+        die(json_encode(["error" => mysqli_error($con)]));
+    }
+
+    if (!empty($params)) {
+        $params = (array)$params;
+        $types = '';
+        foreach ($params as $param) {
+            $types .= is_int($param) ? 'i' : (is_double($param) ? 'd' : 's');
+        }
+        mysqli_stmt_bind_param($stmt, $types, ...$params);
+    }
+
+    $executeResult = mysqli_stmt_execute($stmt);
+
+    // For non-SELECT queries, check if execution was successful
+    if ($executeResult) {
+        return true;  // Success
+    } else {
+        return false; // Failure
+    }
+}
+
 
 // Helper function to fetch multiple results
 function fetchMultipleResults($con,$sql, $params) {

@@ -1,22 +1,34 @@
 <?php
 include '../dbasse_local.php';
-$sql = "SELECT * from sk_pravo WHERE id = ?";
-$id = 1; // Ensure $id is an array
-$rez = fetchSingleResult($con, $sql, [$id]);
 
-if ($rez) { 
-    /*
-    foreach ($rez as $key => $value) {
-        echo "$key: $value<br>";
-    }
-    */
-    echo $rez['ID'];
-    echo "<br>";
-    echo $rez['Naziv'];
-    echo "<br>";
-    echo $rez['Opis'];
 
-} else {
-    echo "No result found.";
+$user_ID = 1024;
+$aktivnost_ID = 1168;
+
+$opciPodaci = [
+    "author" => "Krešimir Kočiš",
+    "carriers" => "Razvoj softvera - grupni rad na projektu",
+    "created" => "2023-09-17",
+    "evaluation" => "",
+    "expenses" => "Razvoj softvera - grupni rad na projektu",
+    "name" => "Razvoj softvera - grupni rad na projektu",
+    "purpose" => "Zainteresiranim učenicima naše škole.",
+    "report" => "",
+    "responsibility" => "Neznam kaj je to",
+    "status" => "3",
+    "timeline" => "Kroz školsku godinu"
+];
+update($con,$opciPodaci,$aktivnost_ID);
+
+function update($con,$opciPodaci,$aktivnost_ID) {
+    $sql = "UPDATE sk_aktivnost
+    SET Naziv = ?, 
+        Namjena = ?,
+        Vremenik = ?, 
+        Datum = STR_TO_DATE(?, '%Y-%m-%d')
+    WHERE ID = ?"; 
+$parms = [$opciPodaci["name"], $opciPodaci["purpose"], $opciPodaci["timeline"], $opciPodaci["created"], $aktivnost_ID];
+placeToDataBase($con, $sql, $parms);
+
 }
 ?>

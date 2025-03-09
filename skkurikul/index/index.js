@@ -1,7 +1,27 @@
+//klasa za lakse mjenjanje i dobivanje vrijednosti trenutne aktivnosti
+//
+class Globla_ID {
+
+    constructor() {
+        //0 => nova aktivnost
+      this.value = 0;
+    }
+  
+    putValue(val) {
+      this.value = val;
+    }
+  
+    getValue() {
+      return this.value;
+    }
+  }
+
+  //globalan varijabla
+  let globalID = new Globla_ID();
+
 $(document).ready(function() {
     getStatic();
     getAktivnosti(user_ID);
-
     let vrstaAktivnostiDropDown = document.getElementById('vrste-aktivnosti');
     //event listiner za promjene dropdown menia
     vrstaAktivnostiDropDown.addEventListener('change', function() {
@@ -132,7 +152,7 @@ function addCheckboxes(array) {
     array.forEach(item => {
         const checkbox = document.createElement('input');
         checkbox.type = 'checkbox';
-        checkbox.id = `carrier-${item.ID}`;
+        checkbox.id = `carrier-${item.ID}`; 
         checkbox.name = 'carrier';
         checkbox.value = item.ID;
 
@@ -150,10 +170,12 @@ function addCheckboxes(array) {
 
 function getAktinostPodaci(button){
     let aktivnost_ID =  button.value;
+    globalID.putValue(aktivnost_ID);
+
     $.ajax({
         url: "getDataAktivnost.php",
         method: "GET",
-        data: {aktivnost_ID: aktivnost_ID },
+        data: {aktivnost_ID: globalID.getValue()},
         dataType: "JSON",
         success: function(aktivnost_podaci){
             //console.log(aktivnost_podaci);//debug 
@@ -168,8 +190,10 @@ function getAktinostPodaci(button){
             popuniTroskovnik(troskovnik);
 
             let relizacija = aktivnost_podaci[3];
-        
             popuniRealizaciju(relizacija);
+
+            let vrednovanje = aktivnost_podaci[4];
+            popuniVrednovanje(vrednovanje);
 
 
             let nositelji = Array.isArray(aktivnost_podaci[5]) ? aktivnost_podaci[5].map(obj => obj.ID) : [];
@@ -179,6 +203,29 @@ function getAktinostPodaci(button){
             alert("Došlo je do pogreške prilikom dohvačanja podataka");
         } 
     })
+}
+
+
+function popuniVrednovanje(vrednovanje) {
+    let evaluationDiv = document.getElementById('list-evaluation');
+    evaluationDiv.innerHTML = ''; // Clear previous content
+
+    //nacin realizacije -> nacin
+    vrednovanje.forEach(vrijednost => {
+        const radio = document.createElement('input');
+        radio.type = 'radio';
+        radio.id = `evaluation-${vrijednost.ID}`;
+        radio.name = 'evaluation'; // Ensure all radios share the same name for single selection
+        radio.value = vrijednost.ID;
+
+        const label = document.createElement('label');
+        label.htmlFor = radio.id;
+        label.textContent = vrijednost.Vrednovanje;
+
+        evaluationDiv.appendChild(radio);
+        evaluationDiv.appendChild(label);
+        // goalsDiv.appendChild(document.createElement('br')); // Optional line break
+    });
 }
 
 //radio buttoni za troskovnik
@@ -287,6 +334,7 @@ function checkCheckboxes(ids) {
 }
 
 //alternativa je ka posle ajaxa do baze i onda mu on vrne id od najslcinijega 
+//za zbrisati
 function scrolldiv() {
     var elem = document
         .getElementByText("Markus Pilić");
@@ -296,18 +344,44 @@ function scrolldiv() {
 
 
 function Save() {
-let opciPodaci = putOpciPodaci();
-let nositelji = putCheckedCarriers();
-let ciljevi = putGoals();
-let realizacije = putRealizations();
-let troskovnik = putExpenses();
+    let opciPodaci = putOpciPodaci();
+    let nositelji = putCheckedCarriers();
+    let ciljevi = putGoals();
+    let realizacije = putRealizations();
+    let troskovnik = putExpenses();
+    let vrednovanje = putEvaluation();
 
-console.log(opciPodaci);
-console.log(nositelji);
-console.log(ciljevi);
-console.log(realizacije);
-console.log(troskovnik);
+    //za debug
+    console.log(opciPodaci);
+    console.log(nositelji);
+    console.log(ciljevi);
+    console.log(realizacije);
+    console.log(troskovnik);
+    console.log(vrednovanje);
+    console.log("Aktivnost ID:", globalID.getValue());
 
+        $.ajax({
+            url: "saveAktivnost.php", 
+            method: "GET",
+            data:   { 
+                    user_ID: user_ID,
+                    aktivnost_ID: globalID.getValue(),
+                    opciPodaci: opciPodaci,
+                    nositelji: nositelji,
+                    ciljevi: ciljevi,
+                    realizacije: realizacije,
+                    troskovnik: troskovnik,
+                    vrednovanje:vrednovanje
+                    },
+            dataType: "JSON",
+            success: function(stanje) {
+                getAktivnosti(user_ID);
+                alert(stanje["pravo"]);
+            },
+            error: function() {
+                alert("Došlo je do pogreške prilikom spremanja Aktivnosti");
+            }
+        });
 }
 
 function putOpciPodaci(){
@@ -390,5 +464,20 @@ function putExpenses(){
     });
 
     return expenses;
+}
+
+function putEvaluation(){
+    const evaluations = [];
+    const radios = document.querySelectorAll('#list-evaluation input[type="radio"]');
+
+    radios.forEach(radio => {
+        const label = radio.parentElement.querySelector('label'); // Find the label associated with the radio button
+        evaluations.push({
+            value: radio.value,
+            text: label ? label.textContent.trim() : '' // Get text content of the label
+        });
+    });
+
+    return evaluations;
 
 }

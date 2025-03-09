@@ -27,7 +27,7 @@ print("<script>var user_ID = {$user_ID};</script>");
 
 ?>
 <body>
-<button onclick="Save();">Save</button>
+
     <div class="form-container">
         <div class="left-panel">
             <div class="field-group">
@@ -113,8 +113,8 @@ print("<script>var user_ID = {$user_ID};</script>");
                         <textarea id="timeline" name="timeline" rows="4"></textarea>
                     </div>
                     <div class="full-width">
-                        <label for="evaluation">Način vrednovanja i način korištenja rezultata:</label>
-                        <div class="list-box" id="evaluation"></div>
+                        <label for="list-evaluation">Način vrednovanja i način korištenja rezultata:</label>
+                        <div class="list-box" id="list-evaluation"></div>
                         <div class="button-group">
                             <button type="button" id="add-evaluation">+</button>
                             <button type="button" id="remove-evaluation">-</button>
@@ -139,7 +139,7 @@ print("<script>var user_ID = {$user_ID};</script>");
                     <div class="buttons">
                         <button type="button" class="button_obrisi">Obriši</button>
                         <button type="button" id="odustani">Odustani</button>
-                        <button type="submit">Spremi</button>
+                        <button onclick=Save()>Spremi</button>
                         <button type="button" id="potvrdi">Potvrdi</button>
                         <button type="reset">Odbaci</button>
                     </div>
