@@ -25,6 +25,7 @@ function logInCheck() {
         }
     });
 }
+
 function setLoggedInSession() {
     $.ajax({
         url: 'set_session.php',

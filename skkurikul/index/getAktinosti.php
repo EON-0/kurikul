@@ -1,29 +1,27 @@
 <?php
-include '../dbasse_local.php';
+include '../dbasse_conn.php';
 //daje sve aktivnosti za pojedninog korisnika
 
-$user_ID = $_GET["user_ID"];
-$vrstaAktivnosti_ID = $_GET["odabir"];
+$user_ID = $_POST["user_ID"];
+$vrstaAktivnosti_ID = $_POST["odabir"];
 
 if($vrstaAktivnosti_ID != -1){
-        $sql = "SELECT DISTINCT sk_Aktivnost.Naziv, sk_Aktivnost.ID 
-        FROM sk_Aktivnost 
-        JOIN sk_Prava ON sk_Aktivnost.ID = sk_Prava.AktivnostID
-        JOIN sk_Aktivnosti ON sk_Aktivnost.ID = sk_Aktivnosti.AktivnostID
-        WHERE sk_Prava.KorisnikID = ? AND sk_Aktivnosti.VrstaID = ? AND Aktivno = 1;";
+        $sql = "SELECT DISTINCT sk_aktivnost.Naziv, sk_aktivnost.ID 
+        FROM sk_aktivnost 
+        JOIN sk_prava ON sk_aktivnost.ID = sk_Prava.AktivnostID
+        JOIN sk_aktivnosti ON sk_aktivnost.ID = sk_aktivnosti.AktivnostID
+        WHERE sk_prava.KorisnikID = ? AND sk_aktivnosti.VrstaID = ? AND Aktivno = 1;";
 
 $aktivnosti_array = fetchMultipleResults($con,$sql,[$user_ID,$vrstaAktivnosti_ID]);
 }
 
 else{
-        $sql = "SELECT DISTINCT sk_Aktivnost.Naziv, sk_Aktivnost.ID 
-        FROM sk_Aktivnost 
-        JOIN sk_Prava ON sk_Aktivnost.ID = sk_Prava.AktivnostID
-        WHERE sk_Prava.KorisnikID = ? AND Aktivno = 1;";
+        $sql = "SELECT DISTINCT sk_aktivnost.Naziv, sk_aktivnost.ID 
+        FROM sk_aktivnost 
+        JOIN sk_prava ON sk_aktivnost.ID = sk_prava.AktivnostID
+        WHERE sk_prava.KorisnikID = ? AND Aktivno = 1;";
         $aktivnosti_array = fetchMultipleResults($con,$sql,[$user_ID]); 
 }
-
-
 
 echo json_encode($aktivnosti_array, JSON_UNESCAPED_UNICODE);
 ?>

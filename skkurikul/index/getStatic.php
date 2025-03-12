@@ -1,5 +1,5 @@
 <?php
-include '../dbasse_local.php';
+include '../dbasse_conn.php';
 
 $dropdowns_array = [];
 

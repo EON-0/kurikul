@@ -3,7 +3,7 @@
 session_start();
 function checkSessionTime(){
     if (isset($_SESSION['login_time'])) {
-        $timeout_duration = 10800;
+        $timeout_duration = 3600;
         // Check if session has expired
         if (time() - $_SESSION['login_time'] > $timeout_duration) {
             session_unset();

@@ -1,7 +1,24 @@
+<?php
+include '../session_timeout.php';
+include '../dbasse_conn.php';
+
+checkSessionTime(); //provjera trajanja sessije
+
+if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
+    header("Location: ../login/login.php");
+    exit();
+}
+
+$user_ID = 1024; //$_SESSION['user_ID']; //za test after del    
+$fullName = $_SESSION['FullName'];
+print("<script>const user_ID = {$user_ID}; const fullName = '" . addslashes($fullName) . "';</script>");
+
+?>
 <!DOCTYPE html>
 <html lang="hr">
+
 <head>
-    <meta charset="UTF-8">  
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Školski Kurikulum</title>
     <!--<link rel="stylesheet" href="index.css">-->
@@ -10,45 +27,29 @@
     <script src="index.js"></script>
 
 </head>
-<?php
 
-include '../session_timeout.php';
-include '../dbasse_local.php';
-
-checkSessionTime(); //provjera trajanja sessije
-
-if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
-    header("Location: ../login/login.php");
-    exit();
-}
-    
-$user_ID = 1024; //$_SESSION['user_ID']; //za test after del    
-print("<script>var user_ID = {$user_ID};</script>");
-
-?>
 <body>
-
     <div class="form-container">
         <div class="left-panel">
             <div class="field-group">
                 <img src="../login/logo/tsck.png" alt="Logo" class="logo"><br>
-                <span id="welcome-message"><?php  echo $_SESSION['FullName'] ?></span>
-                <button id="logout" onclick="logOut()"  class="odjava">ODJAVA</button>
+                <span id="welcome-message"><?php echo $_SESSION['FullName'] ?></span>
+                <button id="logout" onclick="logOut()" class="odjava">ODJAVA</button>
 
                 <label for="vrste-aktivnosti">Vrste Aktivnosti:</label>
                 <select id="vrste-aktivnosti"></select>
             </div>
             <div class="field-group">
-            <label>
-             <span>Sve/Aktualna godina</span>
-                <input type="checkbox" id="aktualna-godina">
-            </label>
+                <label>
+                    <span>Sve/Aktualna godina</span>
+                    <input type="checkbox" id="aktualna-godina">
+                </label>
                 <div class="scrollable-div" id="scrollable-div">
-                    
+
                 </div>
             </div>
             <div class="field-group">
-                <button id="nova-aktivnost">Nova Aktivnost</button>
+                <button id="nova-aktivnost" onclick="kreiraAktivnost()">Nova Aktivnost</button>
                 <button id="kopiraj">Kopiraj</button>
             </div>
         </div>
@@ -80,9 +81,9 @@ print("<script>var user_ID = {$user_ID};</script>");
                         <label for="list-goals">Ciljevi:</label>
                         <div class="list-box" id="list-goals"></div>
                         <div class="button-group">
-                            <button type="button" id="add-goal">+</button>
-                            <button type="button" id="remove-goal">-</button>
-                            <button type="button" id="edit-goal">Uredi</button>
+                            <button type="button" id="add-goal" onclick="addRadioButton()">+</button>
+                            <button type="button" id="remove-goal" onclick="removeCheckedRadioButton()">-</button>
+                            <button type="button" id="edit-goal" onclick="editCheckedRadioButton()">Uredi</button>
                         </div>
                     </div>
                     <div>
@@ -148,4 +149,3 @@ print("<script>var user_ID = {$user_ID};</script>");
         </div>
     </div>
 </body>
- 
