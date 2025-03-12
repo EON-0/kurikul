@@ -1,0 +1,145 @@
+[11-Mar-2025 18:08:03 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/tsckeu/public_html/skolskiKurikul/index/index.php on line 14
+[11-Mar-2025 18:08:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Invalid character set was provided in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php:9
+Stack trace:
+#0 /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php(9): mysqli->set_charset('utf8mb4_croatia...')
+#1 /home/tsckeu/public_html/skolskiKurikul/index/index.php(16): include('/home/tsckeu/pu...')
+#2 {main}
+  thrown in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php on line 9
+[11-Mar-2025 18:08:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Invalid character set was provided in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php:9
+Stack trace:
+#0 /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php(9): mysqli->set_charset('utf8mb4_croatia...')
+#1 /home/tsckeu/public_html/skolskiKurikul/index/getStatic.php(2): include('/home/tsckeu/pu...')
+#2 {main}
+  thrown in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php on line 9
+[11-Mar-2025 18:13:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Invalid character set was provided in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php:9
+Stack trace:
+#0 /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php(9): mysqli->set_charset('utf8mb4_croatia...')
+#1 /home/tsckeu/public_html/skolskiKurikul/index/index.php(18): include('/home/tsckeu/pu...')
+#2 {main}
+  thrown in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php on line 9
+[11-Mar-2025 18:13:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Invalid character set was provided in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php:9
+Stack trace:
+#0 /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php(9): mysqli->set_charset('utf8mb4_croatia...')
+#1 /home/tsckeu/public_html/skolskiKurikul/index/getStatic.php(2): include('/home/tsckeu/pu...')
+#2 {main}
+  thrown in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php on line 9
+[11-Mar-2025 18:14:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'zavrsni2024.sk_Aktivnost' doesn't exist in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php:64
+Stack trace:
+#0 /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php(64): mysqli_prepare(Object(mysqli), 'SELECT DISTINCT...')
+#1 /home/tsckeu/public_html/skolskiKurikul/index/getAktinosti.php(23): fetchMultipleResults(Object(mysqli), 'SELECT DISTINCT...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php on line 64
+[11-Mar-2025 18:15:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'zavrsni2024.sk_Aktivnost' doesn't exist in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php:64
+Stack trace:
+#0 /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php(64): mysqli_prepare(Object(mysqli), 'SELECT DISTINCT...')
+#1 /home/tsckeu/public_html/skolskiKurikul/index/getAktinosti.php(23): fetchMultipleResults(Object(mysqli), 'SELECT DISTINCT...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php on line 64
+[11-Mar-2025 18:16:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'zavrsni2024.sk_Aktivnost' doesn't exist in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php:64
+Stack trace:
+#0 /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php(64): mysqli_prepare(Object(mysqli), 'SELECT DISTINCT...')
+#1 /home/tsckeu/public_html/skolskiKurikul/index/getAktinosti.php(23): fetchMultipleResults(Object(mysqli), 'SELECT DISTINCT...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php on line 64
+[11-Mar-2025 18:17:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tsckeu/public_html/skolskiKurikul/index/index.php:4) in /home/tsckeu/public_html/skolskiKurikul/index/index.php on line 23
+[11-Mar-2025 18:19:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tsckeu/public_html/skolskiKurikul/index/index.php:4) in /home/tsckeu/public_html/skolskiKurikul/index/index.php on line 23
+[11-Mar-2025 18:19:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tsckeu/public_html/skolskiKurikul/index/index.php:4) in /home/tsckeu/public_html/skolskiKurikul/index/index.php on line 23
+[11-Mar-2025 18:19:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'zavrsni2024.sk_Aktivnost' doesn't exist in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php:64
+Stack trace:
+#0 /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php(64): mysqli_prepare(Object(mysqli), 'SELECT DISTINCT...')
+#1 /home/tsckeu/public_html/skolskiKurikul/index/getAktinosti.php(23): fetchMultipleResults(Object(mysqli), 'SELECT DISTINCT...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php on line 64
+[11-Mar-2025 18:19:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tsckeu/public_html/skolskiKurikul/index/index.php:4) in /home/tsckeu/public_html/skolskiKurikul/index/index.php on line 23
+[11-Mar-2025 18:19:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'zavrsni2024.sk_Aktivnost' doesn't exist in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php:64
+Stack trace:
+#0 /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php(64): mysqli_prepare(Object(mysqli), 'SELECT DISTINCT...')
+#1 /home/tsckeu/public_html/skolskiKurikul/index/getAktinosti.php(23): fetchMultipleResults(Object(mysqli), 'SELECT DISTINCT...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php on line 64
+[11-Mar-2025 18:20:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'zavrsni2024.sk_Aktivnost' doesn't exist in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php:64
+Stack trace:
+#0 /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php(64): mysqli_prepare(Object(mysqli), 'SELECT DISTINCT...')
+#1 /home/tsckeu/public_html/skolskiKurikul/index/getAktinosti.php(15): fetchMultipleResults(Object(mysqli), 'SELECT DISTINCT...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php on line 64
+[11-Mar-2025 18:20:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'zavrsni2024.sk_Aktivnost' doesn't exist in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php:64
+Stack trace:
+#0 /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php(64): mysqli_prepare(Object(mysqli), 'SELECT DISTINCT...')
+#1 /home/tsckeu/public_html/skolskiKurikul/index/getAktinosti.php(15): fetchMultipleResults(Object(mysqli), 'SELECT DISTINCT...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php on line 64
+[11-Mar-2025 18:21:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'zavrsni2024.sk_Aktivnost' doesn't exist in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php:64
+Stack trace:
+#0 /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php(64): mysqli_prepare(Object(mysqli), 'SELECT DISTINCT...')
+#1 /home/tsckeu/public_html/skolskiKurikul/index/getAktinosti.php(15): fetchMultipleResults(Object(mysqli), 'SELECT DISTINCT...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php on line 64
+[11-Mar-2025 18:29:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'zavrsni2024.sk_Aktivnost' doesn't exist in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php:64
+Stack trace:
+#0 /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php(64): mysqli_prepare(Object(mysqli), 'SELECT DISTINCT...')
+#1 /home/tsckeu/public_html/skolskiKurikul/index/getAktinosti.php(23): fetchMultipleResults(Object(mysqli), 'SELECT DISTINCT...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php on line 64
+[11-Mar-2025 18:29:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'zavrsni2024.sk_Aktivnost' doesn't exist in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php:64
+Stack trace:
+#0 /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php(64): mysqli_prepare(Object(mysqli), 'SELECT DISTINCT...')
+#1 /home/tsckeu/public_html/skolskiKurikul/index/getAktinosti.php(23): fetchMultipleResults(Object(mysqli), 'SELECT DISTINCT...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php on line 64
+[11-Mar-2025 18:29:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'zavrsni2024.sk_Aktivnost' doesn't exist in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php:64
+Stack trace:
+#0 /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php(64): mysqli_prepare(Object(mysqli), 'SELECT DISTINCT...')
+#1 /home/tsckeu/public_html/skolskiKurikul/index/getAktinosti.php(15): fetchMultipleResults(Object(mysqli), 'SELECT DISTINCT...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php on line 64
+[11-Mar-2025 18:30:23 UTC] PHP Warning:  Undefined array key "user_ID" in /home/tsckeu/public_html/skolskiKurikul/index/getAktinosti.php on line 5
+[11-Mar-2025 18:30:23 UTC] PHP Warning:  Undefined array key "odabir" in /home/tsckeu/public_html/skolskiKurikul/index/getAktinosti.php on line 6
+[11-Mar-2025 18:30:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'zavrsni2024.sk_Aktivnost' doesn't exist in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php:64
+Stack trace:
+#0 /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php(64): mysqli_prepare(Object(mysqli), 'SELECT DISTINCT...')
+#1 /home/tsckeu/public_html/skolskiKurikul/index/getAktinosti.php(15): fetchMultipleResults(Object(mysqli), 'SELECT DISTINCT...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php on line 64
+[11-Mar-2025 18:33:55 UTC] PHP Warning:  Undefined array key "user_ID" in /home/tsckeu/public_html/skolskiKurikul/index/getAktinosti.php on line 5
+[11-Mar-2025 18:33:55 UTC] PHP Warning:  Undefined array key "odabir" in /home/tsckeu/public_html/skolskiKurikul/index/getAktinosti.php on line 6
+[11-Mar-2025 18:33:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'zavrsni2024.sk_Aktivnost' doesn't exist in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php:64
+Stack trace:
+#0 /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php(64): mysqli_prepare(Object(mysqli), 'SELECT DISTINCT...')
+#1 /home/tsckeu/public_html/skolskiKurikul/index/getAktinosti.php(15): fetchMultipleResults(Object(mysqli), 'SELECT DISTINCT...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php on line 64
+[11-Mar-2025 18:34:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'zavrsni2024.sk_Aktivnost' doesn't exist in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php:64
+Stack trace:
+#0 /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php(64): mysqli_prepare(Object(mysqli), 'SELECT DISTINCT...')
+#1 /home/tsckeu/public_html/skolskiKurikul/index/getAktinosti.php(23): fetchMultipleResults(Object(mysqli), 'SELECT DISTINCT...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php on line 64
+[11-Mar-2025 18:35:07 UTC] PHP Warning:  Undefined array key "user_ID" in /home/tsckeu/public_html/skolskiKurikul/index/getAktinosti.php on line 5
+[11-Mar-2025 18:35:07 UTC] PHP Warning:  Undefined array key "odabir" in /home/tsckeu/public_html/skolskiKurikul/index/getAktinosti.php on line 6
+[11-Mar-2025 18:35:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'zavrsni2024.sk_Aktivnost' doesn't exist in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php:64
+Stack trace:
+#0 /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php(64): mysqli_prepare(Object(mysqli), 'SELECT DISTINCT...')
+#1 /home/tsckeu/public_html/skolskiKurikul/index/getAktinosti.php(15): fetchMultipleResults(Object(mysqli), 'SELECT DISTINCT...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php on line 64
+[11-Mar-2025 18:38:05 UTC] PHP Warning:  Undefined array key "user_ID" in /home/tsckeu/public_html/skolskiKurikul/index/getAktinosti.php on line 5
+[11-Mar-2025 18:38:05 UTC] PHP Warning:  Undefined array key "odabir" in /home/tsckeu/public_html/skolskiKurikul/index/getAktinosti.php on line 6
+[11-Mar-2025 18:38:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'sk_Prava.AktivnostID' in 'on clause' in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php:64
+Stack trace:
+#0 /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php(64): mysqli_prepare(Object(mysqli), 'SELECT DISTINCT...')
+#1 /home/tsckeu/public_html/skolskiKurikul/index/getAktinosti.php(15): fetchMultipleResults(Object(mysqli), 'SELECT DISTINCT...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php on line 64
+[11-Mar-2025 18:38:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'zavrsni2024.sk_Aktivnost' doesn't exist in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php:18
+Stack trace:
+#0 /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php(18): mysqli_prepare(Object(mysqli), 'SELECT Naziv, V...')
+#1 /home/tsckeu/public_html/skolskiKurikul/index/getDataAktivnost.php(25): fetchSingleResult(Object(mysqli), 'SELECT Naziv, V...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php on line 18
+[11-Mar-2025 18:38:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'zavrsni2024.sk_Aktivnost' doesn't exist in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php:18
+Stack trace:
+#0 /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php(18): mysqli_prepare(Object(mysqli), 'SELECT Naziv, V...')
+#1 /home/tsckeu/public_html/skolskiKurikul/index/getDataAktivnost.php(25): fetchSingleResult(Object(mysqli), 'SELECT Naziv, V...', Array)
+#2 {main}
+  thrown in /home/tsckeu/public_html/skolskiKurikul/dbasse_conn.php on line 18

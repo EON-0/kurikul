@@ -1,0 +1,20 @@
+0. spaja se na bazu +
+1. html  login +
+2. html index +
+3. get aktivnosti + 
+4. dropdowns +
+5. sort aktivnsoti +
+6. dobivanje podataka php +
+7. prikaz s javom -> deni za one posebne radiobutton i radio grupe
+
+
+//probna lozinka : fv1Afny+o8d31ImHGI78yufmhZkRD8HIbA9vZ9Y87EZHb2ph  --> passtella30
+
+//username : kola
+/*
+
+insert into sk_Korisnici(Username,Password,FullName,Enabled,radnoMjesto) values(
+    'lkola','fv1Afny+o8d31ImHGI78yufmhZkRD8HIbA9vZ9Y87EZHb2ph ','Leon',1,'nastavnik'
+    )
+passtella30
+    */
