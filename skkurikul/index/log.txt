@@ -1,0 +1,328 @@
+Array
+(
+    [user_ID] => 1024
+    [aktivnost_ID] => 1168
+    [opciPodaci] => Array
+        (
+            [name] => Priprema za natjecanje Izrada programskih rješenja
+            [created] => 2024-09-16
+            [author] => Leon
+            [activity-type] => 1
+            [status] => 1
+            [purpose] => Učenicima 4. razreda
+            [carriers] => Priprema za natjecanje Izrada programskih rješenja
+            [responsibility] => 
+            [timeline] => Tijekom školske godine
+            [expenses] => Priprema za natjecanje Izrada programskih rješenja
+            [report] => 
+        )
+
+    [nositelji] => Array
+        (
+            [0] => 1024
+        )
+
+    [ciljevi] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2215
+                    [text] => - iznošenje inovativnih ideja i odabir koja će ići u realizaciju
+- priprema za realizaciju
+- realizacija softvera
+- područja programiranja: Windows, Android, web,
+mikrokontroleri (Arduino...)
+                )
+
+        )
+
+    [troskovnik] => null
+    [vrednovanje] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2151
+                    [text] => Učenici će sami ocjeniti postignute rezultate:
+- mogućnosti napravljene aplikacije, njezinu stabilnost i primjenjivost u praksi
+- ocjeniti međusobnu suradnju i komunikaciju učenika kroz projekt
+- dati mišljenje kako poboljšati uspješnost nekog budućeg projekta
+                )
+
+        )
+
+    [realizacije] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2156
+                    [text] => Projektna nastava subotom. Važan samostalni rad učenika uz
+pomoć nositelja. Nositelj pomaže učenicima i pojedinačno
+nakon nastave ili pod odmorom kad zatrebaju manju pomoć.
+                )
+
+        )
+
+)
+Array
+(
+    [user_ID] => 1024
+    [aktivnost_ID] => 1168
+    [opciPodaci] => Array
+        (
+            [name] => Priprema za natjecanje Izrada programskih rješenja
+            [created] => 2024-09-16
+            [author] => Leon
+            [activity-type] => 1
+            [status] => 1
+            [purpose] => Učenicima 4. razreda
+            [carriers] => Priprema za natjecanje Izrada programskih rješenja
+            [responsibility] => 
+            [timeline] => Tijekom školske godine
+            [expenses] => Priprema za natjecanje Izrada programskih rješenja
+            [report] => 
+        )
+
+    [nositelji] => Array
+        (
+            [0] => 1
+            [1] => 1024
+        )
+
+    [ciljevi] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2215
+                    [text] => - iznošenje inovativnih ideja i odabir koja će ići u realizaciju
+- priprema za realizaciju
+- realizacija softvera
+- područja programiranja: Windows, Android, web,
+mikrokontroleri (Arduino...)
+                )
+
+        )
+
+    [troskovnik] => null
+    [vrednovanje] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2151
+                    [text] => Učenici će sami ocjeniti postignute rezultate:
+- mogućnosti napravljene aplikacije, njezinu stabilnost i primjenjivost u praksi
+- ocjeniti međusobnu suradnju i komunikaciju učenika kroz projekt
+- dati mišljenje kako poboljšati uspješnost nekog budućeg projekta
+                )
+
+        )
+
+    [realizacije] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2156
+                    [text] => Projektna nastava subotom. Važan samostalni rad učenika uz
+pomoć nositelja. Nositelj pomaže učenicima i pojedinačno
+nakon nastave ili pod odmorom kad zatrebaju manju pomoć.
+                )
+
+        )
+
+)
+Array
+(
+    [user_ID] => 1024
+    [aktivnost_ID] => 1168
+    [opciPodaci] => Array
+        (
+            [name] => Priprema za natjecanje Izrada programskih rješenja
+            [created] => 2024-09-16
+            [author] => Leon
+            [activity-type] => 1
+            [status] => 1
+            [purpose] => Učenicima 4. razreda
+            [carriers] => Priprema za natjecanje Izrada programskih rješenja
+            [responsibility] => 
+            [timeline] => Tijekom školske godine
+            [expenses] => Priprema za natjecanje Izrada programskih rješenja
+            [report] => 
+        )
+
+    [nositelji] => Array
+        (
+            [0] => 1
+            [1] => 1024
+        )
+
+    [ciljevi] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2215
+                    [text] => - iznošenje inovativnih ideja i odabir koja će ići u realizaciju
+- priprema za realizaciju
+- realizacija softvera
+- područja programiranja: Windows, Android, web,
+mikrokontroleri (Arduino...)
+                )
+
+        )
+
+    [troskovnik] => null
+    [vrednovanje] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2151
+                    [text] => Učenici će sami ocjeniti postignute rezultate:
+- mogućnosti napravljene aplikacije, njezinu stabilnost i primjenjivost u praksi
+- ocjeniti međusobnu suradnju i komunikaciju učenika kroz projekt
+- dati mišljenje kako poboljšati uspješnost nekog budućeg projekta
+                )
+
+        )
+
+    [realizacije] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2156
+                    [text] => Projektna nastava subotom. Važan samostalni rad učenika uz
+pomoć nositelja. Nositelj pomaže učenicima i pojedinačno
+nakon nastave ili pod odmorom kad zatrebaju manju pomoć.
+                )
+
+        )
+
+)
+Array
+(
+    [user_ID] => 1024
+    [aktivnost_ID] => 1168
+    [opciPodaci] => Array
+        (
+            [name] => Priprema za natjecanje Izrada programskih rješenja
+            [created] => 2024-09-16
+            [author] => Leon
+            [activity-type] => 1
+            [status] => 1
+            [purpose] => Učenicima 4. razreda
+            [carriers] => Priprema za natjecanje Izrada programskih rješenja
+            [responsibility] => 
+            [timeline] => Tijekom školske godine
+            [expenses] => Priprema za natjecanje Izrada programskih rješenja
+            [report] => 
+        )
+
+    [nositelji] => Array
+        (
+            [0] => 1
+            [1] => 1024
+        )
+
+    [ciljevi] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2215
+                    [text] => - iznošenje inovativnih ideja i odabir koja će ići u realizaciju
+- priprema za realizaciju
+- realizacija softvera
+- područja programiranja: Windows, Android, web,
+mikrokontroleri (Arduino...)
+                )
+
+        )
+
+    [troskovnik] => null
+    [vrednovanje] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2151
+                    [text] => Učenici će sami ocjeniti postignute rezultate:
+- mogućnosti napravljene aplikacije, njezinu stabilnost i primjenjivost u praksi
+- ocjeniti međusobnu suradnju i komunikaciju učenika kroz projekt
+- dati mišljenje kako poboljšati uspješnost nekog budućeg projekta
+                )
+
+        )
+
+    [realizacije] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2156
+                    [text] => Projektna nastava subotom. Važan samostalni rad učenika uz
+pomoć nositelja. Nositelj pomaže učenicima i pojedinačno
+nakon nastave ili pod odmorom kad zatrebaju manju pomoć.
+                )
+
+        )
+
+)
+Array
+(
+    [user_ID] => 1024
+    [aktivnost_ID] => 1168
+    [opciPodaci] => Array
+        (
+            [name] => Priprema za natjecanje Izrada programskih rješenja
+            [created] => 2024-09-16
+            [author] => Leon
+            [activity-type] => 1
+            [status] => 1
+            [purpose] => Učenicima 4. razreda
+            [carriers] => Priprema za natjecanje Izrada programskih rješenja
+            [responsibility] => 
+            [timeline] => Tijekom školske godine
+            [expenses] => Priprema za natjecanje Izrada programskih rješenja
+            [report] => 
+        )
+
+    [nositelji] => Array
+        (
+            [0] => 1024
+        )
+
+    [ciljevi] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2215
+                    [text] => - iznošenje inovativnih ideja i odabir koja će ići u realizaciju
+- priprema za realizaciju
+- realizacija softvera
+- područja programiranja: Windows, Android, web,
+mikrokontroleri (Arduino...)
+                )
+
+        )
+
+    [troskovnik] => null
+    [vrednovanje] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2151
+                    [text] => Učenici će sami ocjeniti postignute rezultate:
+- mogućnosti napravljene aplikacije, njezinu stabilnost i primjenjivost u praksi
+- ocjeniti međusobnu suradnju i komunikaciju učenika kroz projekt
+- dati mišljenje kako poboljšati uspješnost nekog budućeg projekta
+                )
+
+        )
+
+    [realizacije] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2156
+                    [text] => Projektna nastava subotom. Važan samostalni rad učenika uz
+pomoć nositelja. Nositelj pomaže učenicima i pojedinačno
+nakon nastave ili pod odmorom kad zatrebaju manju pomoć.
+                )
+
+        )
+
+)
