@@ -1,0 +1,15 @@
+0. spaja se na bazu +
+1. html  login +
+2. html index +
+3. get aktivnosti + 
+4. dropdowns +
+5. sort aktivnsoti +
+6. dobivanje podataka php +
+7. prikaz s javom -> deni za one posebne radiobutton i radio grupe
+
+
+
+
+robotika(1) => id : 1024;
+robotika(2) => id : 1348;
+robotika(3) => id : 1349;

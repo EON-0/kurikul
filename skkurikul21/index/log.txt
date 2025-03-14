@@ -1,0 +1,1071 @@
+Array
+(
+    [user_ID] => 1030
+    [aktivnost_ID] => 1024
+    [opciPodaci] => Array
+        (
+            [name] => Robotika100
+            [created] => 
+            [author] => Leon
+            [activity-type] => 1
+            [status] => 1
+            [purpose] => 
+            [carriers] => Robotika3
+            [responsibility] => 
+            [timeline] => 
+            [expenses] => Robotika3
+            [report] => 
+        )
+
+    [nositelji] => Array
+        (
+            [0] => 1030
+        )
+
+    [ciljevi] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2018
+                    [text] => Motivirati učenike za stjecanje novih ili produbljivanje već stečenih znanja iz područja robotike
+                )
+
+            [1] => Array
+                (
+                    [value] => 2019
+                    [text] => Motivirati učenike za stjecanje novih ili produbljivanje već stečenih znanja iz područja robotike
+                )
+
+        )
+
+    [troskovnik] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2009
+                    [text] => Materijali za izradu robota
+                )
+
+            [1] => Array
+                (
+                    [value] => 2010
+                    [text] => Materijali za izradu robota
+                )
+
+            [2] => Array
+                (
+                    [value] => 2011
+                    [text] => Materijali za izradu robota
+                )
+
+        )
+
+    [vrednovanje] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2012
+                    [text] => Demonstracija radova – Dan otvorenih vrata škole
+                )
+
+            [1] => Array
+                (
+                    [value] => 2013
+                    [text] => Demonstracija radova – Dan otvorenih vrata škole
+                )
+
+        )
+
+    [realizacije] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2011
+                    [text] => Jednom tjedno (min. 2 sata) u šk. praktikumu te po potrebi online – po grupi od 10 do 15 učenika
+                )
+
+        )
+
+)
+Array
+(
+    [user_ID] => 1030
+    [aktivnost_ID] => 1024
+    [opciPodaci] => Array
+        (
+            [name] => Robotika1
+            [created] => 2023-09-03
+            [author] => Leon
+            [activity-type] => 1
+            [status] => 2
+            [purpose] => Učenicima drugih, trećih i četvrtih razreda (smjer Tehničar za računalstvo,Tehničar za mehatroniku, Elektrotehničar)
+            [carriers] => Robotika
+            [responsibility] => 
+            [timeline] => Tijekom školske godine 2023.-2024. – do 20 sati godišnje
+            [expenses] => Robotika
+            [report] => Robotika se provodila u vremenu od mjeseca listopada do lipnja. U aktivnosti su sudjelovali učenici  3.RT i 4.RT razreda. U sklopu aktivnosti provodila se i priprema za natjecanje iz robotike. Na natjecanju su sudjelovala dvojica učenika Biškup Jakov (4.RT) i Horvatić Leonardo (4.ET). Učenici su se nakon 1. mjesta na regionalnom natjecanju plasirali na državno natjecanje Worldskills Croatia gdje su osvojili 2. mjesto.
+        )
+
+    [nositelji] => Array
+        (
+            [0] => 1030
+        )
+
+    [ciljevi] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2018
+                    [text] => Motivirati učenike za stjecanje novih ili produbljivanje već stečenih znanja iz područja robotike
+                )
+
+            [1] => Array
+                (
+                    [value] => 2019
+                    [text] => Motivirati učenike za stjecanje novih ili produbljivanje već stečenih znanja iz područja robotike
+                )
+
+        )
+
+    [troskovnik] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2009
+                    [text] => Materijali za izradu robota
+                )
+
+            [1] => Array
+                (
+                    [value] => 2010
+                    [text] => Materijali za izradu robota
+                )
+
+            [2] => Array
+                (
+                    [value] => 2011
+                    [text] => Materijali za izradu robota
+                )
+
+        )
+
+    [vrednovanje] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2012
+                    [text] => Demonstracija radova – Dan otvorenih vrata škole
+                )
+
+            [1] => Array
+                (
+                    [value] => 2013
+                    [text] => Demonstracija radova – Dan otvorenih vrata škole
+                )
+
+        )
+
+    [realizacije] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2011
+                    [text] => Jednom tjedno (min. 2 sata) u šk. praktikumu te po potrebi online – po grupi od 10 do 15 učenika
+                )
+
+        )
+
+)
+Array
+(
+    [user_ID] => 1030
+    [aktivnost_ID] => 1024
+    [opciPodaci] => Array
+        (
+            [name] => Robotika2
+            [created] => 2024-09-15
+            [author] => Leon
+            [activity-type] => 1
+            [status] => 1
+            [purpose] => Učenicima drugih, trećih i četvrtih razreda (smjer Tehničar za računalstvo,Tehničar za mehatroniku, Elektrotehničar)
+            [carriers] => Robotika
+            [responsibility] => 
+            [timeline] => Tijekom školske godine 2024.-2025. – do 20 sati godišnje
+            [expenses] => Robotika
+            [report] => 
+        )
+
+    [nositelji] => Array
+        (
+            [0] => 1030
+        )
+
+    [ciljevi] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2636
+                    [text] => Motivirati učenike za stjecanje novih ili produbljivanje već stečenih znanja iz područja robotike
+                )
+
+            [1] => Array
+                (
+                    [value] => 2637
+                    [text] => Motivirati učenike za stjecanje novih ili produbljivanje već stečenih znanja iz područja robotike
+                )
+
+        )
+
+    [troskovnik] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2244
+                    [text] => Materijali za izradu robota cca 300 eura
+                )
+
+            [1] => Array
+                (
+                    [value] => 2245
+                    [text] => Materijali za izradu robota cca 300 eura
+                )
+
+            [2] => Array
+                (
+                    [value] => 2246
+                    [text] => Materijali za izradu robota cca 300 eura
+                )
+
+        )
+
+    [vrednovanje] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2337
+                    [text] => Demonstracija radova – Dan otvorenih vrata škole
+                )
+
+            [1] => Array
+                (
+                    [value] => 2338
+                    [text] => Demonstracija radova – Dan otvorenih vrata škole
+                )
+
+        )
+
+    [realizacije] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2398
+                    [text] => Jednom tjedno (min. 2 sata) u šk. praktikumu te po potrebi online – po grupi od 10 do 15 učenika
+                )
+
+        )
+
+)
+Array
+(
+    [user_ID] => 1030
+    [aktivnost_ID] => 1024
+    [opciPodaci] => Array
+        (
+            [name] => Robotika1
+            [created] => 2024-09-15
+            [author] => Leon
+            [activity-type] => 1
+            [status] => 1
+            [purpose] => Učenicima drugih, trećih i četvrtih razreda (smjer Tehničar za računalstvo,Tehničar za mehatroniku, Elektrotehničar)
+            [carriers] => Robotika2
+            [responsibility] => 
+            [timeline] => Tijekom školske godine 2024.-2025. – do 20 sati godišnje
+            [expenses] => Robotika2
+            [report] => 
+        )
+
+    [nositelji] => Array
+        (
+            [0] => 1030
+        )
+
+    [ciljevi] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2018
+                    [text] => Motivirati učenike za stjecanje novih ili produbljivanje već stečenih znanja iz područja robotike
+                )
+
+            [1] => Array
+                (
+                    [value] => 2019
+                    [text] => Motivirati učenike za stjecanje novih ili produbljivanje već stečenih znanja iz područja robotike
+                )
+
+        )
+
+    [troskovnik] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2009
+                    [text] => Materijali za izradu robota
+                )
+
+            [1] => Array
+                (
+                    [value] => 2010
+                    [text] => Materijali za izradu robota
+                )
+
+            [2] => Array
+                (
+                    [value] => 2011
+                    [text] => Materijali za izradu robota
+                )
+
+        )
+
+    [vrednovanje] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2012
+                    [text] => Demonstracija radova – Dan otvorenih vrata škole
+                )
+
+            [1] => Array
+                (
+                    [value] => 2013
+                    [text] => Demonstracija radova – Dan otvorenih vrata škole
+                )
+
+        )
+
+    [realizacije] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2011
+                    [text] => Jednom tjedno (min. 2 sata) u šk. praktikumu te po potrebi online – po grupi od 10 do 15 učenika
+                )
+
+        )
+
+)
+Array
+(
+    [user_ID] => 1030
+    [aktivnost_ID] => 1348
+    [opciPodaci] => Array
+        (
+            [name] => Robotika2
+            [created] => 2024-09-15
+            [author] => Leon
+            [activity-type] => 1
+            [status] => 1
+            [purpose] => Učenicima drugih, trećih i četvrtih razreda (smjer Tehničar za računalstvo,Tehničar za mehatroniku, Elektrotehničar)
+            [carriers] => Robotika
+            [responsibility] => 
+            [timeline] => Tijekom školske godine 2024.-2025. – do 20 sati godišnje
+            [expenses] => Robotika
+            [report] => 
+        )
+
+    [nositelji] => Array
+        (
+            [0] => 1030
+        )
+
+    [ciljevi] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2636
+                    [text] => Motivirati učenike za stjecanje novih ili produbljivanje već stečenih znanja iz područja robotike
+                )
+
+            [1] => Array
+                (
+                    [value] => 2637
+                    [text] => Motivirati učenike za stjecanje novih ili produbljivanje već stečenih znanja iz područja robotike
+                )
+
+        )
+
+    [troskovnik] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2244
+                    [text] => Materijali za izradu robota cca 300 eura
+                )
+
+            [1] => Array
+                (
+                    [value] => 2245
+                    [text] => Materijali za izradu robota cca 300 eura
+                )
+
+            [2] => Array
+                (
+                    [value] => 2246
+                    [text] => Materijali za izradu robota cca 300 eura
+                )
+
+        )
+
+    [vrednovanje] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2337
+                    [text] => Demonstracija radova – Dan otvorenih vrata škole
+                )
+
+            [1] => Array
+                (
+                    [value] => 2338
+                    [text] => Demonstracija radova – Dan otvorenih vrata škole
+                )
+
+        )
+
+    [realizacije] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2398
+                    [text] => Jednom tjedno (min. 2 sata) u šk. praktikumu te po potrebi online – po grupi od 10 do 15 učenika
+                )
+
+        )
+
+)
+Array
+(
+    [user_ID] => 1030
+    [aktivnost_ID] => 1024
+    [opciPodaci] => Array
+        (
+            [name] => Robotika1
+            [created] => 2024-09-15
+            [author] => Leon
+            [activity-type] => 1
+            [status] => 1
+            [purpose] => Učenicima drugih, trećih i četvrtih razreda (smjer Tehničar za računalstvo,Tehničar za mehatroniku, Elektrotehničar)
+            [carriers] => Robotika1
+            [responsibility] => 
+            [timeline] => Tijekom školske godine 2024.-2025. – do 20 sati godišnje
+            [expenses] => Robotika1
+            [report] => 
+        )
+
+    [nositelji] => Array
+        (
+            [0] => 1
+            [1] => 1030
+        )
+
+    [ciljevi] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2018
+                    [text] => Motivirati učenike za stjecanje novih ili produbljivanje već stečenih znanja iz područja robotike
+                )
+
+            [1] => Array
+                (
+                    [value] => 2019
+                    [text] => Motivirati učenike za stjecanje novih ili produbljivanje već stečenih znanja iz područja robotike
+                )
+
+        )
+
+    [troskovnik] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2009
+                    [text] => Materijali za izradu robota
+                )
+
+            [1] => Array
+                (
+                    [value] => 2010
+                    [text] => Materijali za izradu robota
+                )
+
+            [2] => Array
+                (
+                    [value] => 2011
+                    [text] => Materijali za izradu robota
+                )
+
+        )
+
+    [vrednovanje] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2012
+                    [text] => Demonstracija radova – Dan otvorenih vrata škole
+                )
+
+            [1] => Array
+                (
+                    [value] => 2013
+                    [text] => Demonstracija radova – Dan otvorenih vrata škole
+                )
+
+        )
+
+    [realizacije] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2011
+                    [text] => Jednom tjedno (min. 2 sata) u šk. praktikumu te po potrebi online – po grupi od 10 do 15 učenika
+                )
+
+        )
+
+)
+Array
+(
+    [user_ID] => 1030
+    [aktivnost_ID] => 1024
+    [opciPodaci] => Array
+        (
+            [name] => Robotika1
+            [created] => 2024-09-15
+            [author] => Leon
+            [activity-type] => 1
+            [status] => 1
+            [purpose] => Učenicima drugih, trećih i četvrtih razreda (smjer Tehničar za računalstvo,Tehničar za mehatroniku, Elektrotehničar)
+            [carriers] => Robotika1
+            [responsibility] => 
+            [timeline] => Tijekom školske godine 2024.-2025. – do 20 sati godišnje
+            [expenses] => Robotika1
+            [report] => 
+        )
+
+    [nositelji] => Array
+        (
+            [0] => 1
+            [1] => 1030
+        )
+
+    [ciljevi] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2018
+                    [text] => Motivirati učenike za stjecanje novih ili produbljivanje već stečenih znanja iz područja robotike
+                )
+
+            [1] => Array
+                (
+                    [value] => 2019
+                    [text] => Motivirati učenike za stjecanje novih ili produbljivanje već stečenih znanja iz područja robotike
+                )
+
+        )
+
+    [troskovnik] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2009
+                    [text] => Materijali za izradu robota
+                )
+
+            [1] => Array
+                (
+                    [value] => 2010
+                    [text] => Materijali za izradu robota
+                )
+
+            [2] => Array
+                (
+                    [value] => 2011
+                    [text] => Materijali za izradu robota
+                )
+
+        )
+
+    [vrednovanje] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2012
+                    [text] => Demonstracija radova – Dan otvorenih vrata škole
+                )
+
+            [1] => Array
+                (
+                    [value] => 2013
+                    [text] => Demonstracija radova – Dan otvorenih vrata škole
+                )
+
+        )
+
+    [realizacije] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2011
+                    [text] => Jednom tjedno (min. 2 sata) u šk. praktikumu te po potrebi online – po grupi od 10 do 15 učenika
+                )
+
+        )
+
+)
+Array
+(
+    [user_ID] => 1030
+    [aktivnost_ID] => 1024
+    [opciPodaci] => Array
+        (
+            [name] => Robotika1
+            [created] => 2024-09-15
+            [author] => Leon
+            [activity-type] => 1
+            [status] => 1
+            [purpose] => Učenicima drugih, trećih i četvrtih razreda (smjer Tehničar za računalstvo,Tehničar za mehatroniku, Elektrotehničar)
+            [carriers] => Robotika1
+            [responsibility] => 
+            [timeline] => Tijekom školske godine 2024.-2025. – do 20 sati godišnje
+            [expenses] => Robotika1
+            [report] => 
+        )
+
+    [nositelji] => Array
+        (
+            [0] => 1
+            [1] => 1030
+        )
+
+    [ciljevi] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2018
+                    [text] => Motivirati učenike za stjecanje novih ili produbljivanje već stečenih znanja iz područja robotike
+                )
+
+            [1] => Array
+                (
+                    [value] => 2019
+                    [text] => Motivirati učenike za stjecanje novih ili produbljivanje već stečenih znanja iz područja robotike
+                )
+
+        )
+
+    [troskovnik] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2009
+                    [text] => Materijali za izradu robota
+                )
+
+            [1] => Array
+                (
+                    [value] => 2010
+                    [text] => Materijali za izradu robota
+                )
+
+            [2] => Array
+                (
+                    [value] => 2011
+                    [text] => Materijali za izradu robota
+                )
+
+        )
+
+    [vrednovanje] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2012
+                    [text] => Demonstracija radova – Dan otvorenih vrata škole
+                )
+
+            [1] => Array
+                (
+                    [value] => 2013
+                    [text] => Demonstracija radova – Dan otvorenih vrata škole
+                )
+
+        )
+
+    [realizacije] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2011
+                    [text] => Jednom tjedno (min. 2 sata) u šk. praktikumu te po potrebi online – po grupi od 10 do 15 učenika
+                )
+
+        )
+
+)
+Array
+(
+    [user_ID] => 1030
+    [aktivnost_ID] => 1348
+    [opciPodaci] => Array
+        (
+            [name] => Robotika22
+            [created] => 2024-09-15
+            [author] => Leon
+            [activity-type] => 1
+            [status] => 1
+            [purpose] => Učenicima drugih, trećih i četvrtih razreda (smjer Tehničar za računalstvo,Tehničar za mehatroniku, Elektrotehničar)
+            [carriers] => Robotika2
+            [responsibility] => 
+            [timeline] => Tijekom školske godine 2024.-2025. – do 20 sati godišnje
+            [expenses] => Robotika2
+            [report] => 
+        )
+
+    [nositelji] => Array
+        (
+            [0] => 1030
+        )
+
+    [ciljevi] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2636
+                    [text] => Motivirati učenike za stjecanje novih ili produbljivanje već stečenih znanja iz područja robotike
+                )
+
+            [1] => Array
+                (
+                    [value] => 2637
+                    [text] => Motivirati učenike za stjecanje novih ili produbljivanje već stečenih znanja iz područja robotike
+                )
+
+        )
+
+    [troskovnik] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2244
+                    [text] => Materijali za izradu robota cca 300 eura
+                )
+
+            [1] => Array
+                (
+                    [value] => 2245
+                    [text] => Materijali za izradu robota cca 300 eura
+                )
+
+            [2] => Array
+                (
+                    [value] => 2246
+                    [text] => Materijali za izradu robota cca 300 eura
+                )
+
+        )
+
+    [vrednovanje] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2337
+                    [text] => Demonstracija radova – Dan otvorenih vrata škole
+                )
+
+            [1] => Array
+                (
+                    [value] => 2338
+                    [text] => Demonstracija radova – Dan otvorenih vrata škole
+                )
+
+        )
+
+    [realizacije] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2398
+                    [text] => Jednom tjedno (min. 2 sata) u šk. praktikumu te po potrebi online – po grupi od 10 do 15 učenika
+                )
+
+        )
+
+)
+Array
+(
+    [user_ID] => 1030
+    [aktivnost_ID] => 1348
+    [opciPodaci] => Array
+        (
+            [name] => Robotika1
+            [created] => 2024-09-15
+            [author] => Leon
+            [activity-type] => 1
+            [status] => 1
+            [purpose] => Učenicima drugih, trećih i četvrtih razreda (smjer Tehničar za računalstvo,Tehničar za mehatroniku, Elektrotehničar)
+            [carriers] => Robotika2
+            [responsibility] => 
+            [timeline] => Tijekom školske godine 2024.-2025. – do 20 sati godišnje
+            [expenses] => Robotika2
+            [report] => 
+        )
+
+    [nositelji] => Array
+        (
+            [0] => 1030
+        )
+
+    [ciljevi] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2636
+                    [text] => Motivirati učenike za stjecanje novih ili produbljivanje već stečenih znanja iz područja robotike
+                )
+
+            [1] => Array
+                (
+                    [value] => 2637
+                    [text] => Motivirati učenike za stjecanje novih ili produbljivanje već stečenih znanja iz područja robotike
+                )
+
+        )
+
+    [troskovnik] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2244
+                    [text] => Materijali za izradu robota cca 300 eura
+                )
+
+            [1] => Array
+                (
+                    [value] => 2245
+                    [text] => Materijali za izradu robota cca 300 eura
+                )
+
+            [2] => Array
+                (
+                    [value] => 2246
+                    [text] => Materijali za izradu robota cca 300 eura
+                )
+
+        )
+
+    [vrednovanje] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2337
+                    [text] => Demonstracija radova – Dan otvorenih vrata škole
+                )
+
+            [1] => Array
+                (
+                    [value] => 2338
+                    [text] => Demonstracija radova – Dan otvorenih vrata škole
+                )
+
+        )
+
+    [realizacije] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2398
+                    [text] => Jednom tjedno (min. 2 sata) u šk. praktikumu te po potrebi online – po grupi od 10 do 15 učenika
+                )
+
+        )
+
+)
+Array
+(
+    [user_ID] => 1030
+    [aktivnost_ID] => 1024
+    [opciPodaci] => Array
+        (
+            [name] => Robotika
+            [created] => 2024-09-15
+            [author] => Leon
+            [activity-type] => 1
+            [status] => 1
+            [purpose] => Učenicima drugih, trećih i četvrtih razreda (smjer Tehničar za računalstvo,Tehničar za mehatroniku, Elektrotehničar)
+            [carriers] => Robotika1
+            [responsibility] => 
+            [timeline] => Tijekom školske godine 2024.-2025. – do 20 sati godišnje
+            [expenses] => Robotika1
+            [report] => 
+        )
+
+    [nositelji] => Array
+        (
+            [0] => 1030
+        )
+
+    [ciljevi] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2018
+                    [text] => Motivirati učenike za stjecanje novih ili produbljivanje već stečenih znanja iz područja robotike
+                )
+
+            [1] => Array
+                (
+                    [value] => 2019
+                    [text] => Motivirati učenike za stjecanje novih ili produbljivanje već stečenih znanja iz područja robotike
+                )
+
+        )
+
+    [troskovnik] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2009
+                    [text] => Materijali za izradu robota
+                )
+
+            [1] => Array
+                (
+                    [value] => 2010
+                    [text] => Materijali za izradu robota
+                )
+
+            [2] => Array
+                (
+                    [value] => 2011
+                    [text] => Materijali za izradu robota
+                )
+
+        )
+
+    [vrednovanje] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2012
+                    [text] => Demonstracija radova – Dan otvorenih vrata škole
+                )
+
+            [1] => Array
+                (
+                    [value] => 2013
+                    [text] => Demonstracija radova – Dan otvorenih vrata škole
+                )
+
+        )
+
+    [realizacije] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2011
+                    [text] => Jednom tjedno (min. 2 sata) u šk. praktikumu te po potrebi online – po grupi od 10 do 15 učenika
+                )
+
+        )
+
+)
+Array
+(
+    [user_ID] => 1030
+    [aktivnost_ID] => 1348
+    [opciPodaci] => Array
+        (
+            [name] => Robotika
+            [created] => 2024-09-15
+            [author] => Leon
+            [activity-type] => 1
+            [status] => 1
+            [purpose] => Učenicima drugih, trećih i četvrtih razreda (smjer Tehničar za računalstvo,Tehničar za mehatroniku, Elektrotehničar)
+            [carriers] => Robotika1
+            [responsibility] => 
+            [timeline] => Tijekom školske godine 2024.-2025. – do 20 sati godišnje
+            [expenses] => Robotika1
+            [report] => 
+        )
+
+    [nositelji] => Array
+        (
+            [0] => 1030
+        )
+
+    [ciljevi] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2636
+                    [text] => Motivirati učenike za stjecanje novih ili produbljivanje već stečenih znanja iz područja robotike
+                )
+
+            [1] => Array
+                (
+                    [value] => 2637
+                    [text] => Motivirati učenike za stjecanje novih ili produbljivanje već stečenih znanja iz područja robotike
+                )
+
+        )
+
+    [troskovnik] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2244
+                    [text] => Materijali za izradu robota cca 300 eura
+                )
+
+            [1] => Array
+                (
+                    [value] => 2245
+                    [text] => Materijali za izradu robota cca 300 eura
+                )
+
+            [2] => Array
+                (
+                    [value] => 2246
+                    [text] => Materijali za izradu robota cca 300 eura
+                )
+
+        )
+
+    [vrednovanje] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2337
+                    [text] => Demonstracija radova – Dan otvorenih vrata škole
+                )
+
+            [1] => Array
+                (
+                    [value] => 2338
+                    [text] => Demonstracija radova – Dan otvorenih vrata škole
+                )
+
+        )
+
+    [realizacije] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2398
+                    [text] => Jednom tjedno (min. 2 sata) u šk. praktikumu te po potrebi online – po grupi od 10 do 15 učenika
+                )
+
+        )
+
+)
