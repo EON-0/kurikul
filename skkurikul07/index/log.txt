@@ -1,0 +1,571 @@
+Array
+(
+    [0] => Array
+        (
+            [id] => 0
+            [cilj] => aaaa
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [id] => 2215
+            [cilj] => - iznošenje inovativnih ideja i odabir koja će ići u realizaciju
+- priprema za realizaciju
+- realizacija softvera
+- područja programiranja: Windows, Android, web,
+mikrokontroleri (Arduino...)
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [id] => 2215
+            [cilj] => - iznošenje inovativnih ideja i odabir koja će ići u realizaciju
+- priprema za realizaciju
+- realizacija softvera
+- područja programiranja: Windows, Android, web,
+mikrokontroleri (Arduino...)
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2215
+            [cilj] => - iznošenje inovativnih ideja i odabir koja će ići u realizaciju
+- priprema za realizaciju
+- realizacija softvera
+- područja programiranja: Windows, Android, web,
+mikrokontroleri (Arduino...)
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2215
+            [cilj] => - iznošenje inovativnih ideja i odabir koja će ići u realizaciju
+- priprema za realizaciju
+- realizacija softvera
+- područja programiranja: Windows, Android, web,
+mikrokontroleri (Arduino...)
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2156
+            [realizacija] => Projektna nastava subotom. Važan samostalni rad učenika uz
+pomoć nositelja. Nositelj pomaže učenicima i pojedinačno
+nakon nastave ili pod odmorom kad zatrebaju manju pomoć.
+        )
+
+    [1] => Array
+        (
+            [ID] => 0
+            [realizacija] => this is my way
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2215
+            [cilj] => - iznošenje inovativnih ideja i odabir koja će ići u realizaciju
+- priprema za realizaciju
+- realizacija softvera
+- područja programiranja: Windows, Android, web,
+mikrokontroleri (Arduino...)
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2156
+            [realizacija] => this in numero 3
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2215
+            [cilj] => - iznošenje inovativnih ideja i odabir koja će ići u realizaciju
+- priprema za realizaciju
+- realizacija softvera
+- područja programiranja: Windows, Android, web,
+mikrokontroleri (Arduino...)
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2156
+            [realizacija] => this in numero 3
+        )
+
+    [1] => Array
+        (
+            [ID] => 0
+            [realizacija] => this is numero 4
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2215
+            [cilj] => - iznošenje inovativnih ideja i odabir koja će ići u realizaciju
+- priprema za realizaciju
+- realizacija softvera
+- područja programiranja: Windows, Android, web,
+mikrokontroleri (Arduino...)
+        )
+
+    [1] => Array
+        (
+            [ID] => 0
+            [cilj] => aaaaaaaa
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2156
+            [realizacija] => this in numero 3
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2215
+            [cilj] => - iznošenje inovativnih ideja i odabir koja će ići u realizaciju
+- priprema za realizaciju
+- realizacija softvera
+- područja programiranja: Windows, Android, web,
+mikrokontroleri (Arduino...)
+        )
+
+    [1] => Array
+        (
+            [ID] => 0
+            [cilj] => aaaaaaaaaa
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2156
+            [realizacija] => this in numero 3
+        )
+
+    [1] => Array
+        (
+            [ID] => 0
+            [realizacija] => aaaaaaa
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2215
+            [cilj] => - iznošenje inovativnih ideja i odabir koja će ići u realizaciju
+- priprema za realizaciju
+- realizacija softvera
+- područja programiranja: Windows, Android, web,
+mikrokontroleri (Arduino...)
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2156
+            [realizacija] => this in numero 3
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2215
+            [cilj] => - iznošenje inovativnih ideja i odabir koja će ići u realizaciju
+- priprema za realizaciju
+- realizacija softvera
+- područja programiranja: Windows, Android, web,
+mikrokontroleri (Arduino...)
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2156
+            [realizacija] => this in numero 3
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2215
+            [cilj] => - iznošenje inovativnih ideja i odabir koja će ići u realizaciju
+- priprema za realizaciju
+- realizacija softvera
+- područja programiranja: Windows, Android, web,
+mikrokontroleri (Arduino...)
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2156
+            [realizacija] => this in numero 3
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2215
+            [cilj] => - iznošenje inovativnih ideja i odabir koja će ići u realizaciju
+- priprema za realizaciju
+- realizacija softvera
+- područja programiranja: Windows, Android, web,
+mikrokontroleri (Arduino...)
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2156
+            [realizacija] => this in numero 3
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2215
+            [cilj] => - iznošenje inovativnih ideja i odabir koja će ići u realizaciju
+- priprema za realizaciju
+- realizacija softvera
+- područja programiranja: Windows, Android, web,
+mikrokontroleri (Arduino...)
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2156
+            [realizacija] => this in numero 3
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2215
+            [cilj] => - iznošenje inovativnih ideja i odabir koja će ići u realizaciju
+- priprema za realizaciju
+- realizacija softvera
+- područja programiranja: Windows, Android, web,
+mikrokontroleri (Arduino...)
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2156
+            [realizacija] => this in numero 3
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2215
+            [cilj] => - iznošenje inovativnih ideja i odabir koja će ići u realizaciju
+- priprema za realizaciju
+- realizacija softvera
+- područja programiranja: Windows, Android, web,
+mikrokontroleri (Arduino...)
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2156
+            [realizacija] => this in numero 3
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2215
+            [cilj] => - iznošenje inovativnih ideja i odabir koja će ići u realizaciju
+- priprema za realizaciju
+- realizacija softvera
+- područja programiranja: Windows, Android, web,
+mikrokontroleri (Arduino...)
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2156
+            [realizacija] => this in numero 3
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2215
+            [cilj] => - iznošenje inovativnih ideja i odabir koja će ići u realizaciju
+- priprema za realizaciju
+- realizacija softvera
+- područja programiranja: Windows, Android, web,
+mikrokontroleri (Arduino...)
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2156
+            [realizacija] => this in numero 3
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2215
+            [cilj] => - iznošenje inovativnih ideja i odabir koja će ići u realizaciju
+- priprema za realizaciju
+- realizacija softvera
+- područja programiranja: Windows, Android, web,
+mikrokontroleri (Arduino...)
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2156
+            [realizacija] => this in numero 3
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2215
+            [cilj] => - iznošenje inovativnih ideja i odabir koja će ići u realizaciju
+- priprema za realizaciju
+- realizacija softvera
+- područja programiranja: Windows, Android, web,
+mikrokontroleri (Arduino...)
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2156
+            [realizacija] => this in numero 3
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2215
+            [cilj] => - iznošenje inovativnih ideja i odabir koja će ići u realizaciju
+- priprema za realizaciju
+- realizacija softvera
+- područja programiranja: Windows, Android, web,
+mikrokontroleri (Arduino...)
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2215
+            [cilj] => - iznošenje inovativnih ideja i odabir koja će ići u realizaciju
+- priprema za realizaciju
+- realizacija softvera
+- područja programiranja: Windows, Android, web,
+mikrokontroleri (Arduino...)
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2156
+            [realizacija] => this in numero 3
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2215
+            [cilj] => - iznošenje inovativnih ideja i odabir koja će ići u realizaciju
+- priprema za realizaciju
+- realizacija softvera
+- područja programiranja: Windows, Android, web,
+mikrokontroleri (Arduino...)
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2215
+            [cilj] => - iznošenje inovativnih ideja i odabir koja će ići u realizaciju
+- priprema za realizaciju
+- realizacija softvera
+- područja programiranja: Windows, Android, web,
+mikrokontroleri (Arduino...)
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2156
+            [realizacija] => this in numero 3
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2215
+            [cilj] => - iznošenje inovativnih ideja i odabir koja će ići u realizaciju
+- priprema za realizaciju
+- realizacija softvera
+- područja programiranja: Windows, Android, web,
+mikrokontroleri (Arduino...)
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2156
+            [realizacija] => realizacija 1 (oprostite profesore)
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2215
+            [cilj] => - iznošenje inovativnih ideja i odabir koja će ići u realizaciju
+- priprema za realizaciju
+- realizacija softvera
+- područja programiranja: Windows, Android, web,
+mikrokontroleri (Arduino...)
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2156
+            [realizacija] => realizacija 1 (oprostite profesore)
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2215
+            [cilj] => - iznošenje inovativnih ideja i odabir koja će ići u realizaciju
+- priprema za realizaciju
+- realizacija softvera
+- područja programiranja: Windows, Android, web,
+mikrokontroleri (Arduino...)
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2156
+            [realizacija] => realizacija 1 (oprostite profesore)
+        )
+
+)
