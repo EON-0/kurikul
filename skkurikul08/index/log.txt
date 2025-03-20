@@ -1,0 +1,316 @@
+Array
+(
+    [user_ID] => 1024
+    [aktivnost_ID] => null
+    [opciPodaci] => Array
+        (
+            [name] => qqqqqqqqqqqqqqq
+            [created] => 2025-03-20
+            [author] => Leon
+            [activity-type] => -1
+            [status] => 
+            [purpose] => qqqqqqqqqqqqqqqq
+
+            [responsibility] => 
+            [timeline] => qqqqqqqqqqqqq
+            [report] => 
+        )
+
+    [nositelji] => null
+    [ciljevi] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [cilj] => qqqqqqqqqqq
+                )
+
+        )
+
+    [troskovnik] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [trosak] => qqqqqqqqqqqqqqqqq
+                )
+
+        )
+
+    [vrednovanje] => null
+    [realizacije] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [realizacija] => qqqqqqqqqqqqqqqqqq
+                )
+
+        )
+
+)
+Array
+(
+    [user_ID] => 1024
+    [aktivnost_ID] => null
+    [opciPodaci] => Array
+        (
+            [name] => aaaaaaaaaaa
+            [created] => 2025-03-20
+            [author] => Leon
+            [activity-type] => 1
+            [status] => 1
+            [purpose] => aaaaaaaaaaaaaaaaaa
+            [responsibility] => 
+            [timeline] => aaaaaaaaaaaaaaaa
+            [report] => 
+        )
+
+    [nositelji] => null
+    [ciljevi] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [cilj] => aaaaaaaaaaaaaa
+                )
+
+        )
+
+    [troskovnik] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [trosak] => aaaaaaaaaaaaaaaaa
+                )
+
+        )
+
+    [vrednovanje] => null
+    [realizacije] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [realizacija] => aaaaaaaaaaaaaaaa
+                )
+
+        )
+
+)
+Array
+(
+    [user_ID] => 1024
+    [aktivnost_ID] => null
+    [opciPodaci] => Array
+        (
+            [name] => ddddddddddddddddddddddddddd
+            [created] => 2025-03-20
+            [author] => Leon
+            [activity-type] => 2
+            [status] => 2
+            [purpose] => aaaaaaaaaaaaaaaa
+            [responsibility] => 
+            [timeline] => asdasdasdas
+            [report] => 
+        )
+
+    [nositelji] => null
+    [ciljevi] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [cilj] => dddddddddddddddddddddddd
+                )
+
+            [1] => Array
+                (
+                    [ID] => 0
+                    [cilj] => sssssssssssssssssssssssss
+                )
+
+        )
+
+    [troskovnik] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [trosak] => xcvxcvxcv
+                )
+
+            [1] => Array
+                (
+                    [ID] => 0
+                    [trosak] => xvxccxvxv
+                )
+
+        )
+
+    [vrednovanje] => null
+    [realizacije] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [realizacija] => ccccccccccccccccccccccccccccc
+                )
+
+            [1] => Array
+                (
+                    [ID] => 0
+                    [realizacija] => bvvvvvvvvvvvvvvvvvvvvvv
+                )
+
+        )
+
+)
+Array
+(
+    [user_ID] => 1024
+    [aktivnost_ID] => null
+    [opciPodaci] => Array
+        (
+            [name] => ddddddddddddddddddddddddddd
+            [created] => 2025-03-20
+            [author] => Leon
+            [activity-type] => 2
+            [status] => 2
+            [purpose] => aaaaaaaaaaaaaaaa
+            [responsibility] => 
+            [timeline] => asdasdasdas
+            [report] => 
+        )
+
+    [nositelji] => null
+    [ciljevi] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [cilj] => dddddddddddddddddddddddd
+                )
+
+            [1] => Array
+                (
+                    [ID] => 0
+                    [cilj] => sssssssssssssssssssssssss
+                )
+
+        )
+
+    [troskovnik] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [trosak] => xcvxcvxcv
+                )
+
+            [1] => Array
+                (
+                    [ID] => 0
+                    [trosak] => xvxccxvxv
+                )
+
+        )
+
+    [vrednovanje] => null
+    [realizacije] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [realizacija] => ccccccccccccccccccccccccccccc
+                )
+
+            [1] => Array
+                (
+                    [ID] => 0
+                    [realizacija] => bvvvvvvvvvvvvvvvvvvvvvv
+                )
+
+        )
+
+)
+Array
+(
+    [user_ID] => 1024
+    [aktivnost_ID] => null
+    [opciPodaci] => null
+    [nositelji] => null
+    [ciljevi] => null
+    [troskovnik] => null
+    [vrednovanje] => null
+    [realizacije] => null
+)
+Array
+(
+    [user_ID] => 1024
+    [aktivnost_ID] => null
+    [opciPodaci] => Array
+        (
+            [name] => oppoi
+            [created] => 2025-03-20
+            [author] => Leon
+            [activity-type] => -1
+            [status] => 
+            [purpose] => fffffff
+            [responsibility] => 
+            [timeline] => dsdsdsdsdavvvvvvvv
+            [report] => 
+        )
+
+    [nositelji] => null
+    [ciljevi] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [cilj] => wwwww1
+                )
+
+            [1] => Array
+                (
+                    [ID] => 0
+                    [cilj] => wwwwwwww2
+                )
+
+        )
+
+    [troskovnik] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [trosak] => bvvcvvcbcvbcvbc
+                )
+
+            [1] => Array
+                (
+                    [ID] => 0
+                    [trosak] => cvcvvccvbcvb
+                )
+
+        )
+
+    [vrednovanje] => null
+    [realizacije] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [realizacija] => ddddddddddd1
+                )
+
+            [1] => Array
+                (
+                    [ID] => 0
+                    [realizacija] => dddddddddddddddd2
+                )
+
+        )
+
+)

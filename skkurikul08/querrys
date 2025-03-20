@@ -1,0 +1,75 @@
+//---------------
+//single
+//---------------
+
+//sk_aktivnost 
+
+INSERT INTO sk_aktivnost (Naziv, Namjena, Vremenik, Datum, Obrisano)
+VALUES (?, ?, ?, ?, 0);
+
+//ID kreirane aktivnosti
+SELECT ID FROM sk_aktivnost ORDER BY ID DESC LIMIT 1;
+
+
+
+//izvjesce (prvo to ka onda morem id odma deti u aktivnosti, makar bu opis prazni)
+
+INSERT INTO sk_izvjesce (opis, potvrdeno, potvrdenoAdminID, generiranaPotvrda, urBroj, kategorijaNapredovanja)
+VALUES ('', 0, -1, 0, -1, 1);
+
+SELECT ID FROM sk_izvjesce ORDER BY ID DESC LIMIT 1;
+
+
+
+//aktivnosti 
+
+INSERT INTO sk_aktivnosti (AutorID, AktivnostID, VrstaID, StatusID, izvjesceID, skolskaGodina)
+VALUES (?, ?, ?, ?, ?, ?);//treba zeti z php om trenutnu godinu $trenutnaGodina = date("Y");
+
+
+
+//---------------
+//foreach
+//---------------
+
+//ciljevi
+INSERT INTO sk_ciljevi (AktivnostID, Cilj, Obrisano)
+VALUES (?, ?, 0);
+
+
+
+//nositelji
+
+INSERT INTO sk_nositelji (AktivnostID, KorisnikID, GrupaNastavnikaID, Odgovornost, Aktivno)
+VALUES(?, ? NULL, NULL, 1);
+
+//to treba za sakoga ko je odabrani
+
+
+
+//prava (dodjeljivanje korisniku)
+
+INSERT INTO sk_prava (KorisnikID, AktivnostID, PravoID, Dodano, Aktivno)
+VALUES (?, NULL, 9, NOW(), 1),
+
+
+
+//realizacija
+INSERT INTO sk_realizacije (AktivnostID, Realizacija, Obrisano)
+VALUES (?, ?, 0);
+
+
+
+//troskovnik
+INSERT INTO sk_troskovnik (AktivnostID, Trosak, Obrisano)
+VALUES (?, ?, 0),
+
+
+
+//vrednovanje
+INSERT INTO sk_vrednovanja (AktivnostID, Vrednovanje, Obrisano)
+VALUES (?, ?, 0),
+
+
+
+
