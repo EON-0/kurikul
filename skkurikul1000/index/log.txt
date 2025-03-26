@@ -1,0 +1,2538 @@
+Array
+(
+    [user_ID] => 1024
+    [aktivnost_ID] => null
+    [opciPodaci] => Array
+        (
+            [name] => qqqqqqqqqqqqqqq
+            [created] => 2025-03-20
+            [author] => Leon
+            [activity-type] => -1
+            [status] => 
+            [purpose] => qqqqqqqqqqqqqqqq
+
+            [responsibility] => 
+            [timeline] => qqqqqqqqqqqqq
+            [report] => 
+        )
+
+    [nositelji] => null
+    [ciljevi] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [cilj] => qqqqqqqqqqq
+                )
+
+        )
+
+    [troskovnik] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [trosak] => qqqqqqqqqqqqqqqqq
+                )
+
+        )
+
+    [vrednovanje] => null
+    [realizacije] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [realizacija] => qqqqqqqqqqqqqqqqqq
+                )
+
+        )
+
+)
+Array
+(
+    [user_ID] => 1024
+    [aktivnost_ID] => null
+    [opciPodaci] => Array
+        (
+            [name] => aaaaaaaaaaa
+            [created] => 2025-03-20
+            [author] => Leon
+            [activity-type] => 1
+            [status] => 1
+            [purpose] => aaaaaaaaaaaaaaaaaa
+            [responsibility] => 
+            [timeline] => aaaaaaaaaaaaaaaa
+            [report] => 
+        )
+
+    [nositelji] => null
+    [ciljevi] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [cilj] => aaaaaaaaaaaaaa
+                )
+
+        )
+
+    [troskovnik] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [trosak] => aaaaaaaaaaaaaaaaa
+                )
+
+        )
+
+    [vrednovanje] => null
+    [realizacije] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [realizacija] => aaaaaaaaaaaaaaaa
+                )
+
+        )
+
+)
+Array
+(
+    [user_ID] => 1024
+    [aktivnost_ID] => null
+    [opciPodaci] => Array
+        (
+            [name] => ddddddddddddddddddddddddddd
+            [created] => 2025-03-20
+            [author] => Leon
+            [activity-type] => 2
+            [status] => 2
+            [purpose] => aaaaaaaaaaaaaaaa
+            [responsibility] => 
+            [timeline] => asdasdasdas
+            [report] => 
+        )
+
+    [nositelji] => null
+    [ciljevi] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [cilj] => dddddddddddddddddddddddd
+                )
+
+            [1] => Array
+                (
+                    [ID] => 0
+                    [cilj] => sssssssssssssssssssssssss
+                )
+
+        )
+
+    [troskovnik] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [trosak] => xcvxcvxcv
+                )
+
+            [1] => Array
+                (
+                    [ID] => 0
+                    [trosak] => xvxccxvxv
+                )
+
+        )
+
+    [vrednovanje] => null
+    [realizacije] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [realizacija] => ccccccccccccccccccccccccccccc
+                )
+
+            [1] => Array
+                (
+                    [ID] => 0
+                    [realizacija] => bvvvvvvvvvvvvvvvvvvvvvv
+                )
+
+        )
+
+)
+Array
+(
+    [user_ID] => 1024
+    [aktivnost_ID] => null
+    [opciPodaci] => Array
+        (
+            [name] => ddddddddddddddddddddddddddd
+            [created] => 2025-03-20
+            [author] => Leon
+            [activity-type] => 2
+            [status] => 2
+            [purpose] => aaaaaaaaaaaaaaaa
+            [responsibility] => 
+            [timeline] => asdasdasdas
+            [report] => 
+        )
+
+    [nositelji] => null
+    [ciljevi] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [cilj] => dddddddddddddddddddddddd
+                )
+
+            [1] => Array
+                (
+                    [ID] => 0
+                    [cilj] => sssssssssssssssssssssssss
+                )
+
+        )
+
+    [troskovnik] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [trosak] => xcvxcvxcv
+                )
+
+            [1] => Array
+                (
+                    [ID] => 0
+                    [trosak] => xvxccxvxv
+                )
+
+        )
+
+    [vrednovanje] => null
+    [realizacije] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [realizacija] => ccccccccccccccccccccccccccccc
+                )
+
+            [1] => Array
+                (
+                    [ID] => 0
+                    [realizacija] => bvvvvvvvvvvvvvvvvvvvvvv
+                )
+
+        )
+
+)
+Array
+(
+    [user_ID] => 1024
+    [aktivnost_ID] => null
+    [opciPodaci] => null
+    [nositelji] => null
+    [ciljevi] => null
+    [troskovnik] => null
+    [vrednovanje] => null
+    [realizacije] => null
+)
+Array
+(
+    [user_ID] => 1024
+    [aktivnost_ID] => null
+    [opciPodaci] => Array
+        (
+            [name] => oppoi
+            [created] => 2025-03-20
+            [author] => Leon
+            [activity-type] => -1
+            [status] => 
+            [purpose] => fffffff
+            [responsibility] => 
+            [timeline] => dsdsdsdsdavvvvvvvv
+            [report] => 
+        )
+
+    [nositelji] => null
+    [ciljevi] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [cilj] => wwwww1
+                )
+
+            [1] => Array
+                (
+                    [ID] => 0
+                    [cilj] => wwwwwwww2
+                )
+
+        )
+
+    [troskovnik] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [trosak] => bvvcvvcbcvbcvbc
+                )
+
+            [1] => Array
+                (
+                    [ID] => 0
+                    [trosak] => cvcvvccvbcvb
+                )
+
+        )
+
+    [vrednovanje] => null
+    [realizacije] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [realizacija] => ddddddddddd1
+                )
+
+            [1] => Array
+                (
+                    [ID] => 0
+                    [realizacija] => dddddddddddddddd2
+                )
+
+        )
+
+)
+Array
+(
+    [user_ID] => 1082
+    [aktivnost_ID] => null
+    [opciPodaci] => Array
+        (
+            [name] => Testna Aktivnost
+            [created] => 2025-03-21
+            [author] => Leon
+            [activity-type] => -1
+            [status] => 
+            [purpose] => Isprobati kreiranje
+            [responsibility] => 
+            [timeline] => do kraja vikenda
+            [report] => 
+        )
+
+    [nositelji] => null
+    [ciljevi] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [cilj] => Privi tesni cilj
+                )
+
+        )
+
+    [troskovnik] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [trosak] => vrijeme
+                )
+
+        )
+
+    [vrednovanje] => null
+    [realizacije] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [realizacija] => Realiyacija 1
+                )
+
+        )
+
+)
+Array
+(
+    [user_ID] => 1024
+    [aktivnost_ID] => null
+    [opciPodaci] => Array
+        (
+            [name] => Priprema za natjecanje Izrada programskih rješenja
+            [created] => 2024-09-16
+            [author] => Leon
+            [activity-type] => 1
+            [status] => 1
+            [purpose] => Učenicima 4. razreda
+            [carriers] => Priprema za natjecanje Izrada programskih rješenja
+            [responsibility] => 
+            [timeline] => Tijekom školske godine
+            [expenses] => Priprema za natjecanje Izrada programskih rješenja
+            [report] => 
+        )
+
+    [nositelji] => Array
+        (
+            [0] => 1
+            [1] => 1024
+        )
+
+    [ciljevi] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 2215
+                    [cilj] => - iznošenje inovativnih ideja i odabir koja će ići u realizaciju
+- priprema za realizaciju
+- realizacija softvera
+- područja programiranja: Windows, Android, web,
+mikrokontroleri (Arduino...)
+                )
+
+        )
+
+    [troskovnik] => null
+    [vrednovanje] => null
+    [realizacije] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 2156
+                    [realizacija] => realizacija 1 (oprostite profesore)
+                )
+
+        )
+
+)
+Array
+(
+    [user_ID] => 1024
+    [aktivnost_ID] => null
+    [opciPodaci] => Array
+        (
+            [name] => Priprema za natjecanje Izrada programskih rješenja
+            [created] => 2024-09-16
+            [author] => Leon
+            [activity-type] => 1
+            [status] => 1
+            [purpose] => Učenicima 4. razreda
+            [carriers] => Priprema za natjecanje Izrada programskih rješenja
+            [responsibility] => 
+            [timeline] => Tijekom školske godine
+            [expenses] => Priprema za natjecanje Izrada programskih rješenja
+            [report] => 
+        )
+
+    [nositelji] => Array
+        (
+            [0] => 1
+            [1] => 1024
+        )
+
+    [ciljevi] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 2215
+                    [cilj] => - iznošenje inovativnih ideja i odabir koja će ići u realizaciju
+- priprema za realizaciju
+- realizacija softvera
+- područja programiranja: Windows, Android, web,
+mikrokontroleri (Arduino...)
+                )
+
+        )
+
+    [troskovnik] => null
+    [vrednovanje] => null
+    [realizacije] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 2156
+                    [realizacija] => realizacija 1 (oprostite profesore)
+                )
+
+        )
+
+)
+Array
+(
+    [user_ID] => 1024
+    [aktivnost_ID] => null
+    [opciPodaci] => Array
+        (
+            [name] => Priprema za natjecanje Izrada programskih rješenja
+            [created] => 2024-09-16
+            [author] => Leon
+            [activity-type] => 1
+            [status] => 1
+            [purpose] => Učenicima 4. razreda
+            [carriers] => Priprema za natjecanje Izrada programskih rješenja
+            [responsibility] => 
+            [timeline] => Tijekom školske godine
+            [expenses] => Priprema za natjecanje Izrada programskih rješenja
+            [report] => 
+        )
+
+    [nositelji] => Array
+        (
+            [0] => 1024
+        )
+
+    [ciljevi] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 2215
+                    [cilj] => - iznošenje inovativnih ideja i odabir koja će ići u realizaciju
+- priprema za realizaciju
+- realizacija softvera
+- područja programiranja: Windows, Android, web,
+mikrokontroleri (Arduino...)
+                )
+
+        )
+
+    [troskovnik] => null
+    [vrednovanje] => null
+    [realizacije] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 2156
+                    [realizacija] => realizacija 1 (oprostite profesore)
+                )
+
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2215
+            [cilj] => - iznošenje inovativnih ideja i odabir koja će ići u realizaciju
+- priprema za realizaciju
+- realizacija softvera
+- područja programiranja: Windows, Android, web,
+mikrokontroleri (Arduino...)
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2156
+            [realizacija] => realizacija 1 (oprostite profesore)
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2215
+            [cilj] => - iznošenje inovativnih ideja i odabir koja će ići u realizaciju
+- priprema za realizaciju
+- realizacija softvera
+- područja programiranja: Windows, Android, web,
+mikrokontroleri (Arduino...)
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2156
+            [realizacija] => realizacija 1 (oprostite profesore)
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2215
+            [cilj] => - iznošenje inovativnih ideja i odabir koja će ići u realizaciju
+- priprema za realizaciju
+- realizacija softvera
+- područja programiranja: Windows, Android, web,
+mikrokontroleri (Arduino...)
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2156
+            [realizacija] => realizacija 1 (oprostite profesore)
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2215
+            [cilj] => - iznošenje inovativnih ideja i odabir koja će ići u realizaciju
+- priprema za realizaciju
+- realizacija softvera
+- područja programiranja: Windows, Android, web,
+mikrokontroleri (Arduino...)
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2156
+            [realizacija] => realizacija 1 (oprostite profesore)
+        )
+
+)
+Array
+(
+    [user_ID] => 1082
+    [aktivnost_ID] => null
+    [opciPodaci] => Array
+        (
+            [name] => Prvi Pravi test
+            [created] => 2025-03-22
+            [author] => Leon
+            [activity-type] => -1
+            [status] => 
+            [purpose] => testirati
+            [responsibility] => 
+            [timeline] => do ponelka
+            [report] => 
+        )
+
+    [nositelji] => null
+    [ciljevi] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [cilj] => 123
+                )
+
+            [1] => Array
+                (
+                    [ID] => 0
+                    [cilj] => 234
+                )
+
+        )
+
+    [troskovnik] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [trosak] => aaaaaaaaaaaaaaaaaaaaa
+                )
+
+            [1] => Array
+                (
+                    [ID] => 0
+                    [trosak] => eeeeeeeeeeeeeee
+                )
+
+        )
+
+    [vrednovanje] => null
+    [realizacije] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [realizacija] => 768
+                )
+
+            [1] => Array
+                (
+                    [ID] => 0
+                    [realizacija] => 789
+                )
+
+        )
+
+)
+Array
+(
+    [user_ID] => 1082
+    [aktivnost_ID] => null
+    [opciPodaci] => null
+    [nositelji] => null
+    [ciljevi] => null
+    [troskovnik] => null
+    [vrednovanje] => null
+    [realizacije] => null
+)
+Array
+(
+    [user_ID] => 1082
+    [aktivnost_ID] => null
+    [opciPodaci] => Array
+        (
+            [name] => Prosim te delaj
+            [created] => 2025-03-22
+            [author] => Leon
+            [activity-type] => -1
+            [status] => 
+            [purpose] => ka bude delalo 
+            [responsibility] => 
+            [timeline] => do pon 
+            [report] => 
+        )
+
+    [nositelji] => null
+    [ciljevi] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [cilj] => delaj11
+                )
+
+            [1] => Array
+                (
+                    [ID] => 0
+                    [cilj] => delaj12
+                )
+
+        )
+
+    [troskovnik] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [trosak] => daj prosim te dejal ve
+                )
+
+        )
+
+    [vrednovanje] => null
+    [realizacije] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [realizacija] => delaj21
+                )
+
+            [1] => Array
+                (
+                    [ID] => 0
+                    [realizacija] => delaj20
+                )
+
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2876
+            [cilj] => delaj11
+        )
+
+    [1] => Array
+        (
+            [ID] => 2877
+            [cilj] => delaj12
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2576
+            [realizacija] => delaj21
+        )
+
+    [1] => Array
+        (
+            [ID] => 2577
+            [realizacija] => delaj20
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2876
+            [cilj] => delaj11
+        )
+
+    [1] => Array
+        (
+            [ID] => 2877
+            [cilj] => delaj12
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2576
+            [realizacija] => delaj21
+        )
+
+    [1] => Array
+        (
+            [ID] => 2577
+            [realizacija] => delaj20
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2876
+            [cilj] => delaj11
+        )
+
+    [1] => Array
+        (
+            [ID] => 2877
+            [cilj] => delaj12
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2576
+            [realizacija] => delaj21
+        )
+
+    [1] => Array
+        (
+            [ID] => 2577
+            [realizacija] => delaj20
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2876
+            [cilj] => delaj11
+        )
+
+    [1] => Array
+        (
+            [ID] => 2877
+            [cilj] => delaj12
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2576
+            [realizacija] => delaj21
+        )
+
+    [1] => Array
+        (
+            [ID] => 2577
+            [realizacija] => delaj20
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2876
+            [cilj] => delaj11
+        )
+
+    [1] => Array
+        (
+            [ID] => 2877
+            [cilj] => delaj12
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2576
+            [realizacija] => delaj21
+        )
+
+    [1] => Array
+        (
+            [ID] => 2577
+            [realizacija] => delaj20
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2876
+            [cilj] => delaj11
+        )
+
+    [1] => Array
+        (
+            [ID] => 2877
+            [cilj] => delaj12
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2576
+            [realizacija] => delaj21
+        )
+
+    [1] => Array
+        (
+            [ID] => 2577
+            [realizacija] => delaj20
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2876
+            [cilj] => delaj11
+        )
+
+    [1] => Array
+        (
+            [ID] => 2877
+            [cilj] => delaj12
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2576
+            [realizacija] => delaj21
+        )
+
+    [1] => Array
+        (
+            [ID] => 2577
+            [realizacija] => delaj20
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2876
+            [cilj] => delaj11
+        )
+
+    [1] => Array
+        (
+            [ID] => 2877
+            [cilj] => delaj12
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2576
+            [realizacija] => delaj21
+        )
+
+    [1] => Array
+        (
+            [ID] => 2577
+            [realizacija] => delaj20
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2876
+            [cilj] => delaj11
+        )
+
+    [1] => Array
+        (
+            [ID] => 2877
+            [cilj] => delaj12
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2576
+            [realizacija] => delaj21
+        )
+
+    [1] => Array
+        (
+            [ID] => 2577
+            [realizacija] => delaj20
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2876
+            [cilj] => delaj11
+        )
+
+    [1] => Array
+        (
+            [ID] => 2877
+            [cilj] => delaj12
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2576
+            [realizacija] => delaj21
+        )
+
+    [1] => Array
+        (
+            [ID] => 2577
+            [realizacija] => delaj20
+        )
+
+)
+Array
+(
+    [user_ID] => 1082
+    [aktivnost_ID] => null
+    [opciPodaci] => Array
+        (
+            [name] => 
+            [created] => 2025-03-23
+            [author] => Leon
+            [activity-type] => -1
+            [status] => 
+            [purpose] => 
+            [responsibility] => 
+            [timeline] => 
+            [report] => 
+        )
+
+    [nositelji] => Array
+        (
+            [0] => 1
+        )
+
+    [ciljevi] => null
+    [troskovnik] => null
+    [vrednovanje] => null
+    [realizacije] => null
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2876
+            [cilj] => delaj11
+        )
+
+    [1] => Array
+        (
+            [ID] => 2877
+            [cilj] => delaj12
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2576
+            [realizacija] => delaj21
+        )
+
+    [1] => Array
+        (
+            [ID] => 2577
+            [realizacija] => delaj20
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2876
+            [cilj] => delaj11
+        )
+
+    [1] => Array
+        (
+            [ID] => 2877
+            [cilj] => delaj12
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2576
+            [realizacija] => delaj21
+        )
+
+    [1] => Array
+        (
+            [ID] => 2577
+            [realizacija] => delaj20
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2876
+            [cilj] => delaj11
+        )
+
+    [1] => Array
+        (
+            [ID] => 2877
+            [cilj] => delaj12
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2576
+            [realizacija] => delaj21
+        )
+
+    [1] => Array
+        (
+            [ID] => 2577
+            [realizacija] => delaj20
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2876
+            [cilj] => delaj11
+        )
+
+    [1] => Array
+        (
+            [ID] => 2877
+            [cilj] => delaj12
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2576
+            [realizacija] => delaj21
+        )
+
+    [1] => Array
+        (
+            [ID] => 2577
+            [realizacija] => delaj20
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2876
+            [cilj] => delaj11
+        )
+
+    [1] => Array
+        (
+            [ID] => 2877
+            [cilj] => delaj12
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2576
+            [realizacija] => delaj21
+        )
+
+    [1] => Array
+        (
+            [ID] => 2577
+            [realizacija] => delaj20
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2876
+            [cilj] => delaj11
+        )
+
+    [1] => Array
+        (
+            [ID] => 2877
+            [cilj] => delaj12
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2576
+            [realizacija] => delaj21
+        )
+
+    [1] => Array
+        (
+            [ID] => 2577
+            [realizacija] => delaj20
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2876
+            [cilj] => delaj11
+        )
+
+    [1] => Array
+        (
+            [ID] => 2877
+            [cilj] => delaj12
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2576
+            [realizacija] => delaj21
+        )
+
+    [1] => Array
+        (
+            [ID] => 2577
+            [realizacija] => delaj20
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2876
+            [cilj] => delaj11
+        )
+
+    [1] => Array
+        (
+            [ID] => 2877
+            [cilj] => delaj12
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2576
+            [realizacija] => delaj21
+        )
+
+    [1] => Array
+        (
+            [ID] => 2577
+            [realizacija] => delaj20
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2876
+            [cilj] => delaj11
+        )
+
+    [1] => Array
+        (
+            [ID] => 2877
+            [cilj] => delaj12
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2576
+            [realizacija] => delaj21
+        )
+
+    [1] => Array
+        (
+            [ID] => 2577
+            [realizacija] => delaj20
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2876
+            [cilj] => delaj11
+        )
+
+    [1] => Array
+        (
+            [ID] => 2877
+            [cilj] => delaj12
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2576
+            [realizacija] => delaj21
+        )
+
+    [1] => Array
+        (
+            [ID] => 2577
+            [realizacija] => delaj20
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2876
+            [cilj] => delaj11
+        )
+
+    [1] => Array
+        (
+            [ID] => 2877
+            [cilj] => delaj12
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2576
+            [realizacija] => delaj21
+        )
+
+    [1] => Array
+        (
+            [ID] => 2577
+            [realizacija] => delaj20
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2876
+            [cilj] => delaj11
+        )
+
+    [1] => Array
+        (
+            [ID] => 2877
+            [cilj] => delaj12
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2576
+            [realizacija] => delaj21
+        )
+
+    [1] => Array
+        (
+            [ID] => 2577
+            [realizacija] => delaj20
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2876
+            [cilj] => delaj11
+        )
+
+    [1] => Array
+        (
+            [ID] => 2877
+            [cilj] => delaj12
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2576
+            [realizacija] => delaj21
+        )
+
+    [1] => Array
+        (
+            [ID] => 2577
+            [realizacija] => delaj20
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2876
+            [cilj] => delaj11
+        )
+
+    [1] => Array
+        (
+            [ID] => 2877
+            [cilj] => delaj12
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2576
+            [realizacija] => delaj21
+        )
+
+    [1] => Array
+        (
+            [ID] => 2577
+            [realizacija] => delaj20
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2876
+            [cilj] => delaj11
+        )
+
+    [1] => Array
+        (
+            [ID] => 2877
+            [cilj] => delaj12
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2576
+            [realizacija] => delaj21
+        )
+
+    [1] => Array
+        (
+            [ID] => 2577
+            [realizacija] => delaj20
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2876
+            [cilj] => delaj11
+        )
+
+    [1] => Array
+        (
+            [ID] => 2877
+            [cilj] => delaj12
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2576
+            [realizacija] => delaj21
+        )
+
+    [1] => Array
+        (
+            [ID] => 2577
+            [realizacija] => delaj20
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2876
+            [cilj] => delaj11
+        )
+
+    [1] => Array
+        (
+            [ID] => 2877
+            [cilj] => delaj12
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2576
+            [realizacija] => delaj21
+        )
+
+    [1] => Array
+        (
+            [ID] => 2577
+            [realizacija] => delaj20
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2876
+            [cilj] => delaj11
+        )
+
+    [1] => Array
+        (
+            [ID] => 2877
+            [cilj] => delaj12
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2576
+            [realizacija] => delaj21
+        )
+
+    [1] => Array
+        (
+            [ID] => 2577
+            [realizacija] => delaj20
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2876
+            [cilj] => delaj11
+        )
+
+    [1] => Array
+        (
+            [ID] => 2877
+            [cilj] => delaj12
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2576
+            [realizacija] => delaj21
+        )
+
+    [1] => Array
+        (
+            [ID] => 2577
+            [realizacija] => delaj20
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2876
+            [cilj] => delaj11
+        )
+
+    [1] => Array
+        (
+            [ID] => 2877
+            [cilj] => delaj12
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2576
+            [realizacija] => delaj21
+        )
+
+    [1] => Array
+        (
+            [ID] => 2577
+            [realizacija] => delaj20
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2876
+            [cilj] => delaj11
+        )
+
+    [1] => Array
+        (
+            [ID] => 2877
+            [cilj] => delaj12
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2576
+            [realizacija] => delaj21
+        )
+
+    [1] => Array
+        (
+            [ID] => 2577
+            [realizacija] => delaj20
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2018
+            [cilj] => Motivirati učenike za stjecanje novih ili produbljivanje već stečenih znanja iz područja robotike
+        )
+
+    [1] => Array
+        (
+            [ID] => 2019
+            [cilj] => Priprema učenika za natjecanje iz područja robotike (WSC, CLIL)
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2011
+            [realizacija] => Jednom tjedno (min. 2 sata) u šk. praktikumu te po potrebi online – po grupi od 10 do 15 učenika
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2018
+            [cilj] => Motivirati učenike za stjecanje novih ili produbljivanje već stečenih znanja iz područja robotike
+        )
+
+    [1] => Array
+        (
+            [ID] => 2019
+            [cilj] => Priprema učenika za natjecanje iz područja robotike (WSC, CLIL)
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2011
+            [realizacija] => Jednom tjedno (min. 2 sata) u šk. praktikumu te po potrebi online – po grupi od 10 do 15 učenika
+        )
+
+)
+Array
+(
+    [user_ID] => 1082
+    [aktivnost_ID] => null
+    [opciPodaci] => Array
+        (
+            [name] => 
+            [created] => 2025-03-23
+            [author] => Leon
+            [activity-type] => -1
+            [status] => 
+            [purpose] => 
+            [responsibility] => 
+            [timeline] => 
+            [report] => 
+        )
+
+    [nositelji] => null
+    [ciljevi] => null
+    [troskovnik] => null
+    [vrednovanje] => null
+    [realizacije] => null
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2876
+            [cilj] => delaj11
+        )
+
+    [1] => Array
+        (
+            [ID] => 2877
+            [cilj] => delaj12
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2576
+            [realizacija] => delaj21
+        )
+
+    [1] => Array
+        (
+            [ID] => 2577
+            [realizacija] => delaj20
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2876
+            [cilj] => delaj11
+        )
+
+    [1] => Array
+        (
+            [ID] => 2877
+            [cilj] => delaj12
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2576
+            [realizacija] => delaj21
+        )
+
+    [1] => Array
+        (
+            [ID] => 2577
+            [realizacija] => delaj20
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2876
+            [cilj] => delaj11
+        )
+
+    [1] => Array
+        (
+            [ID] => 2877
+            [cilj] => delaj12
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2576
+            [realizacija] => delaj21
+        )
+
+    [1] => Array
+        (
+            [ID] => 2577
+            [realizacija] => delaj20
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2876
+            [cilj] => delaj11
+        )
+
+    [1] => Array
+        (
+            [ID] => 2877
+            [cilj] => delaj12
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2576
+            [realizacija] => delaj21
+        )
+
+    [1] => Array
+        (
+            [ID] => 2577
+            [realizacija] => delaj20
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2876
+            [cilj] => delaj11
+        )
+
+    [1] => Array
+        (
+            [ID] => 2877
+            [cilj] => delaj12
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2576
+            [realizacija] => delaj21
+        )
+
+    [1] => Array
+        (
+            [ID] => 2577
+            [realizacija] => delaj20
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2016
+            [cilj] => Cilj01
+        )
+
+    [1] => Array
+        (
+            [ID] => 2017
+            [cilj] => cilj2
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2009
+            [realizacija] => provedba radionica
+        )
+
+    [1] => Array
+        (
+            [ID] => 2010
+            [realizacija] => prijava na natječaj
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2876
+            [cilj] => delaj11
+        )
+
+    [1] => Array
+        (
+            [ID] => 2877
+            [cilj] => delaj12
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2576
+            [realizacija] => delaj21
+        )
+
+    [1] => Array
+        (
+            [ID] => 2577
+            [realizacija] => delaj20
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [user_ID] => 1
+    [aktivnost_ID] => null
+    [opciPodaci] => Array
+        (
+            [name] => 
+            [created] => 2025-03-23
+            [author] => Administrator
+            [activity-type] => -1
+            [status] => 
+            [purpose] => 
+            [responsibility] => 
+            [timeline] => 
+            [report] => 
+        )
+
+    [nositelji] => null
+    [ciljevi] => null
+    [troskovnik] => null
+    [vrednovanje] => null
+    [realizacije] => null
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2016
+            [cilj] => Cilj01
+        )
+
+    [1] => Array
+        (
+            [ID] => 2017
+            [cilj] => cilj2
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2009
+            [realizacija] => provedba radionica
+        )
+
+    [1] => Array
+        (
+            [ID] => 2010
+            [realizacija] => prijava na natječaj
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [user_ID] => 1082
+    [aktivnost_ID] => null
+    [opciPodaci] => Array
+        (
+            [name] => MolimTeRadi
+            [created] => 2025-03-23
+            [author] => Leon
+            [activity-type] => 1
+            [status] => 1
+            [purpose] => testirati ako radi 
+            [responsibility] => 
+            [timeline] => do sutra
+            [report] => 
+        )
+
+    [nositelji] => Array
+        (
+            [0] => 1004
+            [1] => 1005
+        )
+
+    [ciljevi] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [cilj] => molim te radi danas
+                )
+
+            [1] => Array
+                (
+                    [ID] => 0
+                    [cilj] => prosim te
+                )
+
+        )
+
+    [troskovnik] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [trosak] => nema
+                )
+
+            [1] => Array
+                (
+                    [ID] => 0
+                    [trosak] => mozda malo
+                )
+
+        )
+
+    [vrednovanje] => null
+    [realizacije] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [realizacija] => stvaranje
+                )
+
+            [1] => Array
+                (
+                    [ID] => 0
+                    [realizacija] => brisanje
+                )
+
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2878
+            [cilj] => molim te radi danas
+        )
+
+    [1] => Array
+        (
+            [ID] => 2879
+            [cilj] => prosim te
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2578
+            [realizacija] => stvaranje
+        )
+
+    [1] => Array
+        (
+            [ID] => 2579
+            [realizacija] => brisanje
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2878
+            [cilj] => molim te radi danas
+        )
+
+    [1] => Array
+        (
+            [ID] => 2879
+            [cilj] => prosim te
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2578
+            [realizacija] => stvaranje
+        )
+
+    [1] => Array
+        (
+            [ID] => 2579
+            [realizacija] => brisanje
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2878
+            [cilj] => molim te radi danas
+        )
+
+    [1] => Array
+        (
+            [ID] => 2879
+            [cilj] => prosim te
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2578
+            [realizacija] => stvaranje
+        )
+
+    [1] => Array
+        (
+            [ID] => 2579
+            [realizacija] => brisanje
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2878
+            [cilj] => molim te radi danas
+        )
+
+    [1] => Array
+        (
+            [ID] => 2879
+            [cilj] => prosim te
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2578
+            [realizacija] => stvaranje
+        )
+
+    [1] => Array
+        (
+            [ID] => 2579
+            [realizacija] => brisanje
+        )
+
+)
+Array
+(
+    [user_ID] => 1082
+    [aktivnost_ID] => null
+    [opciPodaci] => Array
+        (
+            [name] => Pokusaj
+            [created] => 2025-03-23
+            [author] => Leon
+            [activity-type] => 1
+            [status] => 1
+            [purpose] => proba
+            [responsibility] => 
+            [timeline] => do sutra
+            [report] => Izvjescujem vas da ovo mozda radi
+        )
+
+    [nositelji] => Array
+        (
+            [0] => 1004
+            [1] => 1006
+            [2] => 1008
+        )
+
+    [ciljevi] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [cilj] => pokusati
+                )
+
+        )
+
+    [troskovnik] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [trosak] => nemao
+                )
+
+            [1] => Array
+                (
+                    [ID] => 0
+                    [trosak] => jako puno
+                )
+
+        )
+
+    [vrednovanje] => null
+    [realizacije] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 0
+                    [realizacija] => pokusaj
+                )
+
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2880
+            [cilj] => pokusati
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2580
+            [realizacija] => pokusaj
+        )
+
+)
+Array
+(
+    [user_ID] => 1082
+    [aktivnost_ID] => null
+    [opciPodaci] => Array
+        (
+            [name] => Pokusaj
+            [created] => 2025-03-23
+            [author] => Leon
+            [activity-type] => -1
+            [status] => 
+            [purpose] => proba
+            [carriers] => Pokusaj
+            [responsibility] => 
+            [timeline] => do sutra
+            [expenses] => Pokusaj
+            [report] => Prosim te delaj
+        )
+
+    [nositelji] => Array
+        (
+            [0] => 1004
+        )
+
+    [ciljevi] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 2880
+                    [cilj] => pokusati
+                )
+
+        )
+
+    [troskovnik] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 2370
+                    [trosak] => nemao
+                )
+
+            [1] => Array
+                (
+                    [ID] => 2371
+                    [trosak] => jako puno
+                )
+
+        )
+
+    [vrednovanje] => null
+    [realizacije] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 2580
+                    [realizacija] => pokusaj
+                )
+
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2844
+            [cilj] => aktivno uključivanje učenika u “život” Škole
+        )
+
+    [1] => Array
+        (
+            [ID] => 2845
+            [cilj] => poticanje zajedništva učenika različitih Škola
+        )
+
+    [2] => Array
+        (
+            [ID] => 2846
+            [cilj] => upoznavanje učenika i nastavnika kroz neformalno druženje
+        )
+
+    [3] => Array
+        (
+            [ID] => 2847
+            [cilj] => poticanje inicijativnosti i kreativnosti učenika
+        )
+
+    [4] => Array
+        (
+            [ID] => 2848
+            [cilj] => promocija Škole
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2561
+            [realizacija] => organizacija kviza u školi (formiranje ekipa iz redova učenika različitih Škola, svaka škola 2-3 ekipe) osmišljavanje pitanja
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2844
+            [cilj] => aktivno uključivanje učenika u “život” Škole
+        )
+
+    [1] => Array
+        (
+            [ID] => 2845
+            [cilj] => poticanje zajedništva učenika različitih Škola
+        )
+
+    [2] => Array
+        (
+            [ID] => 2846
+            [cilj] => upoznavanje učenika i nastavnika kroz neformalno druženje
+        )
+
+    [3] => Array
+        (
+            [ID] => 2847
+            [cilj] => poticanje inicijativnosti i kreativnosti učenika
+        )
+
+    [4] => Array
+        (
+            [ID] => 2848
+            [cilj] => promocija Škole
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2561
+            [realizacija] => organizacija kviza u školi (formiranje ekipa iz redova učenika različitih Škola, svaka škola 2-3 ekipe) osmišljavanje pitanja
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2880
+            [cilj] => pokusati
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2580
+            [realizacija] => pokusaj
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2880
+            [cilj] => pokusati
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2881
+            [cilj] => pokusati
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2581
+            [realizacija] => pokusaj
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2796
+            [cilj] => Učenicima omogućiti jedinstveno iskustvo učenja putem najnovije digitalne tehnologije koja se u svijetu sve više primjenjuje u obrazovanju: VR (virtualna stvarnost).
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [ID] => 2517
+            [realizacija] => Učenicima omogućiti jedinstveno iskustvo učenja putem najnovije digitalne tehnologije koja se u svijetu sve više primjenjuje u obrazovanju: VR (virtualna stvarnost).
+        )
+
+    [1] => Array
+        (
+            [ID] => 2518
+            [realizacija] => Dolazak VR kina u školu.
+        )
+
+)
