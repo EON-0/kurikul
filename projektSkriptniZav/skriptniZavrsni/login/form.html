@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Resetiranje lozinke</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="login.js"></script>
+  <style>
+    :root {
+      --primary-color: #b9d7a1;
+      --primary-hover-color: #bad7eb;
+      --background-color: #f0f0f5;
+      --text-color: #333;
+      --border-radius: 10px;
+      --spacing-unit: 1rem;
+      --input-padding: 0.75rem;
+      --button-padding: 0.75rem;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: var(--background-color);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      color: var(--text-color);
+    }
+
+    .form-container {
+      background-color: #ffffff;
+      padding: calc(var(--spacing-unit) * 1.5);
+      border-radius: var(--border-radius);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      width: 90%;
+      max-width: 350px;
+    }
+
+    /* 
+       .form-group is a row for each label+input pair.
+       Using flex helps align them horizontally.
+    */
+    .form-group {
+      display: flex;
+      align-items: center;
+      margin-bottom: var(--spacing-unit);
+    }
+
+    .form-group label {
+      width: 30%;
+      font-weight: bold;
+      margin-right: 1rem;
+      text-align: right;
+    }
+
+    .form-group input {
+      width: 70%;
+      padding: var(--input-padding);
+      border: 1px solid #ccc;
+      border-radius: calc(var(--border-radius) * 0.5);
+      font-size: 1rem;
+    }
+
+    button {
+      padding: var(--button-padding);
+      background-color: var(--primary-color);
+      color: white;
+      border: none;
+      border-radius: calc(var(--border-radius) * 0.5);
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      width: 100%;
+    }
+
+    button:hover {
+      background-color: var(--primary-hover-color);
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+      <div class="form-group">
+        <label for="lozinka1">Nova lozinka:</label>
+        <input type="password" id="lozinka1" name="lozinka1" />
+      </div>
+      <div class="form-group">
+        <label for="lozinka2">Ponovljena lozinka:</label>
+        <input type="password" id="lozinka2" name="lozinka2" />
+      </div>
+      <button onclick="spremiResetiranuLozinku()">Resetiraj</button>
+  </div>
+</body>
+
+</html>
